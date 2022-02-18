@@ -11,7 +11,7 @@ public interface IHibernateDataProvider {
      * Метод для добавления экземпляра TestEntity в БД
      * @param testEntity необходимый для передачи экземпляр
      */
-    public void create(TestEntity testEntity);
+    public boolean create(TestEntity testEntity);
     /**
      * Метод для получения TestEntity по конкретному id
      * @param id необходимый для получения экземпляр (id объекта)

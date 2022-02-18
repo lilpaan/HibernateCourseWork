@@ -7,23 +7,35 @@ import java.util.Date;
 @Entity
 public class TestEntity implements Serializable {
     @Id
-    @GeneratedValue
-    long id;
-    String name;
-    String description;
-    Date dateCreated;
-    Boolean check;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "test_entity_id")
+    private Long id;
+    @Column(name = "test_entity_name")
+    private String name;
+    private String description;
+    private Date dateCreated;
+    @Column(name = "test_entity_check")
+    private Boolean check;
     @Embedded
-    PanchenkoComponent panchenkoComponent;
+    private PanchenkoComponent panchenkoComponent;
 
     public TestEntity() {
     }
 
-    public long getId() {
+    public TestEntity(Long id, String name, String description, Date dateCreated, Boolean check, PanchenkoComponent panchenkoComponent) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.dateCreated = dateCreated;
+        this.check = check;
+        this.panchenkoComponent = panchenkoComponent;
+    }
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

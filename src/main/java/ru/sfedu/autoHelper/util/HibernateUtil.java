@@ -9,6 +9,7 @@ import org.hibernate.query.NativeQuery;
 import org.hibernate.service.ServiceRegistry;
 import ru.sfedu.autoHelper.ConstantsValues;
 import ru.sfedu.autoHelper.entity.Car;
+import ru.sfedu.autoHelper.lab2.TestEntity;
 
 import java.io.File;
 
@@ -38,6 +39,7 @@ public class HibernateUtil {
             MetadataSources metadataSources =
                     new MetadataSources(serviceRegistry);
             metadataSources.addAnnotatedClass(Car.class);// Аннотированная сущность
+            metadataSources.addAnnotatedClass(TestEntity.class);
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }
 

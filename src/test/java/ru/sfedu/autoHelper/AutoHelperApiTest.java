@@ -5,7 +5,12 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import ru.sfedu.autoHelper.lab2.HibernateDataProvider;
 import ru.sfedu.autoHelper.lab2.IHibernateDataProvider;
+import ru.sfedu.autoHelper.lab2.PanchenkoComponent;
 import ru.sfedu.autoHelper.lab2.TestEntity;
+
+import java.util.Date;
+
+import static org.junit.Assert.assertTrue;
 
 /**
  * Класс для исполнения тестов
@@ -15,9 +20,14 @@ public class AutoHelperApiTest {
     IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
 
 // lab2
-
+TestEntity testEntity;
+    Date currentDate = new Date(System.currentTimeMillis());
     @Test
     public void insertPositive(){
+        boolean success;
+        testEntity = new TestEntity(null, "ddfdfdf", "dfdfsdd", currentDate, true, new PanchenkoComponent("dsddd", 223332, "sdsql"));
+        success = dataProviderHibernate.create(testEntity);
+        assertTrue(success);
         //dataProviderHibernate.create("df", "dfdf");
     }
 

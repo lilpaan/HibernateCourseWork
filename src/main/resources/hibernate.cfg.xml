@@ -17,5 +17,6 @@
         <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
         <!-- Вывод в консоль SQL-запросов -->
         <property name="show_sql">true</property>
+        <mapping class="ru.sfedu.autoHelper.lab2.TestEntity"/>
     </session-factory>
 </hibernate-configuration>
