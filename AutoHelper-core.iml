@@ -4,6 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
           <unit-entry name="ru:sfedu:autoHelper:lab1:lab1.hbn_cfg.xml" />
           <unit-entry name="ru:sfedu:autoHelper:lab2:lab2.hbn_cfg.xml" />
         </datasource-map>

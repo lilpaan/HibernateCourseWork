@@ -21,6 +21,11 @@ public class ConstantsValues {
     public static final String GET_TABLE_LIST = "SELECT table_name FROM information_schema.tables;";
     public static final String GET_DATA_TYPES = "SELECT table_type FROM information_schema.tables;";
 
+    // Constants-names of columns
+    public static final String COLUMN_TEST_ENTITY_ID = "test_entity_id";
+    public static final String COLUMN_TEST_ENTITY_NAME = "test_entity_name";
+    public static final String COLUMN_TEST_ENTITY_CHECK = "test_entity_check";
+
     // Ключи для environment.properties
     public static final String CAR_CSV = "CAR_CSV";
     public static final String DISCOUNT_CARD_CSV = "DISCOUNT_CARD_CSV";
@@ -228,5 +233,6 @@ public class ConstantsValues {
 
     // hello world for different debug situations
     public static final String HELLO_WORLD = "Hello world!";
+
 
 }

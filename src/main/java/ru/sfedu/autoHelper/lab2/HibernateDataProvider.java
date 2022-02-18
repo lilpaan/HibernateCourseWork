@@ -29,46 +29,25 @@ public class HibernateDataProvider implements IHibernateDataProvider {
             logger.error(e);
             isCreated = false;
         }
-        /*        Transaction transaction = null;
-        try (Session session = getSession(Constants.LAB2_HBN_CFG)) {
-            transaction = session.beginTransaction();
-            session.save(testEntity);
-            transaction.commit();
-            logger.info("insert successful");
-            return true;
-        } catch (Exception e){
-            logger.error(e);
-            if (transaction != null) {
-                transaction.rollback();
-            }*/
         return isCreated;
     }
 
     @Override
     public Optional<TestEntity> readById(long id) {
-/*        public Optional<TestEntity> getById(long id) {
-            logger.info("start getById");
-            logger.debug("start getById with id: " + id);
-            Transaction transaction = null;
-            Optional<TestEntity> optional;
-            try (Session session = getSession(Constants.LAB2_HBN_CFG)) {
-                transaction = session.beginTransaction();
-                optional = Optional.ofNullable(session.get(TestEntity.class, id));
-                transaction.commit();
-                logger.info("getById successful");
-                return optional;
-            } catch (Exception e){
-                logger.error(e);
-                if (transaction != null) {
-                    transaction.rollback();
-                }
-                return Optional.empty();
-            }*/
-        return Optional.empty();
+        Optional<TestEntity> optionalTestEntity;
+        try {
+            Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
+            optionalTestEntity = Optional.ofNullable(session.get(TestEntity.class, id));
+        } catch (Exception e) {
+            logger.error(e);
+            return Optional.empty();
+        }
+        return optionalTestEntity;
     }
 
     @Override
     public Optional<List<TestEntity>> readAll() {
+        Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
   /*      public Optional<List<TestEntity>> selectAll() {
             logger.info("start select");
             List<TestEntity> list;
@@ -81,28 +60,22 @@ public class HibernateDataProvider implements IHibernateDataProvider {
     }
 
     @Override
-    public void update(TestEntity testEntity) {
-/*        public boolean update(TestEntity testEntity) {
-            logger.info("start update");
-            logger.debug("start update with entity: " + testEntity);
-            Transaction transaction = null;
-            try (Session session = getSession(Constants.LAB2_HBN_CFG)) {
-                transaction = session.beginTransaction();
-                session.update(testEntity);
-                transaction.commit();
-                logger.info("update successful");
-                return true;
-            } catch (Exception e){
-                logger.error(e);
-                if (transaction != null) {
-                    transaction.rollback();
-                }
-                return false;
-            }*/
+    public boolean update(TestEntity testEntity) {
+        boolean isUpdated;
+        try {
+            Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
+            session.update(testEntity);
+            isUpdated = true;
+        } catch (Exception e) {
+            logger.error(e);
+            isUpdated = false;
+        }
+        return isUpdated;
     }
 
     @Override
     public void delete(long id) {
+        Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
 /*        public boolean delete(long id) {
             logger.info("start delete");
             logger.debug("start delete with id: " + id);

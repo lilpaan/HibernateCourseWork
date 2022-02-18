@@ -1,5 +1,7 @@
 package ru.sfedu.autoHelper.lab2;
 
+import ru.sfedu.autoHelper.ConstantsValues;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -8,13 +10,13 @@ import java.util.Date;
 public class TestEntity implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "test_entity_id")
+    @Column(name = ConstantsValues.COLUMN_TEST_ENTITY_ID)
     private Long id;
-    @Column(name = "test_entity_name")
+    @Column(name = ConstantsValues.COLUMN_TEST_ENTITY_NAME)
     private String name;
     private String description;
     private Date dateCreated;
-    @Column(name = "test_entity_check")
+    @Column(name = ConstantsValues.COLUMN_TEST_ENTITY_CHECK)
     private Boolean check;
     @Embedded
     private PanchenkoComponent panchenkoComponent;

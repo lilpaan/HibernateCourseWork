@@ -29,7 +29,7 @@ public interface IHibernateDataProvider {
      * Метод для внесения изменений в экземпляр объекта TestEntity
      * @param testEntity экземпляр, который необходимо изменить
      */
-    public void update(TestEntity testEntity);
+    public boolean update(TestEntity testEntity);
 
     /**
      * Метод для удаления экземпляра TestEntity по выбранному id
