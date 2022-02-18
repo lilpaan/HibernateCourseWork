@@ -5,6 +5,7 @@ public class ConstantsValues {
     // config files for labs
     public static final String DEFAULT_HBN_CFG = "src/main/resources/hibernate.cfg.xml";
     public static final String  LAB1_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab1/lab1.hbn_cfg.xml";
+    public static final String  LAB2_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab2/lab2.hbn_cfg.xml";
 
     // info about DB
     public static final String DB_NAME = "panchenko";
