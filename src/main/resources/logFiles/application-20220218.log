@@ -1,0 +1,402 @@
+2022-02-18 16:22:22.670 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:22:23.089 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:22:23.219 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:22:23.223 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:22:23.224 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:22:23.225 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:22:23.227 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:22:23.565 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:22:23.807 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:22:23.810 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Unknown entity: ru.sfedu.autoHelper.lab2.TestEntity
+2022-02-18 16:25:59.102 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:25:59.504 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:25:59.638 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:25:59.642 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:25:59.643 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:25:59.643 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:25:59.645 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:25:59.966 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:26:00.183 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:26:00.186 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Unknown entity: ru.sfedu.autoHelper.lab2.TestEntity
+2022-02-18 16:27:52.349 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:27:52.740 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:27:52.870 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:27:52.874 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:27:52.875 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:27:52.875 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:27:52.877 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:27:53.185 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:27:53.399 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:27:53.404 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Unknown entity: ru.sfedu.autoHelper.lab2.TestEntity
+2022-02-18 16:32:14.863 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:32:15.257 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:32:15.395 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:32:15.400 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:32:15.400 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:32:15.401 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:32:15.403 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:32:15.713 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:32:15.944 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:32:15.947 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Repeated column in mapping for entity: ru.sfedu.autoHelper.lab2.TestEntity column: name (should be mapped with insert="false" update="false")
+2022-02-18 16:35:29.193 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:35:29.588 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:35:29.713 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:35:29.724 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:35:29.724 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:35:29.725 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:35:29.727 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:35:30.003 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:35:30.289 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:35:30.292 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Repeated column in mapping for entity: ru.sfedu.autoHelper.lab2.TestEntity column: name (should be mapped with insert="false" update="false")
+2022-02-18 16:36:32.553 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:36:32.955 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:36:33.087 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:36:33.091 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:36:33.092 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:36:33.092 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:36:33.094 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:36:33.404 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:36:33.634 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:36:33.636 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Repeated column in mapping for entity: ru.sfedu.autoHelper.lab2.TestEntity column: name (should be mapped with insert="false" update="false")
+2022-02-18 16:37:03.489 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:37:03.916 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:37:04.053 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:37:04.057 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:37:04.057 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:37:04.058 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:37:04.060 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:37:04.379 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:37:04.637 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:37:04.639 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Repeated column in mapping for entity: ru.sfedu.autoHelper.lab2.TestEntity column: name (should be mapped with insert="false" update="false")
+2022-02-18 16:38:20.248 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:38:20.651 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:38:20.783 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:38:20.787 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:38:20.788 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:38:20.788 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:38:20.790 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:38:21.097 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:38:21.328 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:38:21.331 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Repeated column in mapping for entity: ru.sfedu.autoHelper.lab2.TestEntity column: name (should be mapped with insert="false" update="false")
+2022-02-18 16:38:58.300 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:38:58.695 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:38:58.831 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:38:58.836 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:38:58.836 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:38:58.836 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:38:58.839 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:38:59.136 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:38:59.352 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:38:59.355 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.MappingException: Repeated column in mapping for entity: ru.sfedu.autoHelper.lab2.TestEntity column: name (should be mapped with insert="false" update="false")
+2022-02-18 16:41:33.204 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:41:33.610 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:41:33.750 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:41:33.755 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:41:33.755 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:41:33.756 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:41:33.758 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:41:34.076 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:41:34.653 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:41:34.684 [main] ERROR org.hibernate.id.enhanced.TableStructure - could not read a hi value
+java.sql.SQLSyntaxErrorException: Table 'panchenko.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.hibernate.id.enhanced.TableStructure.executeQuery(TableStructure.java:220) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure.access$300(TableStructure.java:45) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:142) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:130) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:55) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:57) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1.getNextValue(TableStructure.java:129) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:534) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:115) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:194) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:38) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:179) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:32) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:75) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:676) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:669) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:664) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.autoHelper.lab2.HibernateDataProvider.create(HibernateDataProvider.java:26) [classes/:?]
+	at ru.sfedu.autoHelper.AutoHelperApiTest.insertPositive(AutoHelperApiTest.java:29) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2022-02-18 16:41:34.690 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-02-18 16:41:34.690 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'panchenko.hibernate_sequence' doesn't exist
+2022-02-18 16:41:34.691 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.exception.SQLGrammarException: error performing isolated work
+2022-02-18 16:45:33.722 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:45:34.119 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:45:34.251 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:45:34.255 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:45:34.256 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:45:34.256 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:45:34.258 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:45:34.537 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:45:35.055 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:45:35.082 [main] ERROR org.hibernate.id.enhanced.TableStructure - could not read a hi value
+java.sql.SQLSyntaxErrorException: Table 'panchenko.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.hibernate.id.enhanced.TableStructure.executeQuery(TableStructure.java:220) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure.access$300(TableStructure.java:45) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:142) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:130) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:55) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:57) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1.getNextValue(TableStructure.java:129) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:534) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:115) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:194) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:38) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:179) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:32) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:75) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:676) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:669) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:664) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.autoHelper.lab2.HibernateDataProvider.create(HibernateDataProvider.java:25) [classes/:?]
+	at ru.sfedu.autoHelper.AutoHelperApiTest.insertPositive(AutoHelperApiTest.java:29) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2022-02-18 16:45:35.086 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-02-18 16:45:35.087 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'panchenko.hibernate_sequence' doesn't exist
+2022-02-18 16:45:35.088 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.exception.SQLGrammarException: error performing isolated work
+2022-02-18 16:48:07.108 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:48:07.493 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:48:07.631 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:48:07.636 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:48:07.636 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:48:07.636 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:48:07.639 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:48:07.923 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:48:08.473 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:48:08.498 [main] ERROR org.hibernate.id.enhanced.TableStructure - could not read a hi value
+java.sql.SQLSyntaxErrorException: Table 'panchenko.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.hibernate.id.enhanced.TableStructure.executeQuery(TableStructure.java:220) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure.access$300(TableStructure.java:45) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:142) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:130) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:55) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:57) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1.getNextValue(TableStructure.java:129) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:534) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:115) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:194) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:38) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:179) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:32) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:75) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:676) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:669) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:664) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.autoHelper.lab2.HibernateDataProvider.create(HibernateDataProvider.java:26) [classes/:?]
+	at ru.sfedu.autoHelper.AutoHelperApiTest.insertPositive(AutoHelperApiTest.java:29) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2022-02-18 16:48:08.504 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-02-18 16:48:08.504 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'panchenko.hibernate_sequence' doesn't exist
+2022-02-18 16:48:08.506 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.exception.SQLGrammarException: error performing isolated work
+2022-02-18 16:49:55.533 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:49:55.928 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:49:56.063 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:49:56.067 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:49:56.068 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:49:56.068 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:49:56.070 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:49:56.445 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:49:56.973 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:49:56.998 [main] ERROR org.hibernate.id.enhanced.TableStructure - could not read a hi value
+java.sql.SQLSyntaxErrorException: Table 'panchenko.hibernate_sequence' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003) ~[mysql-connector-java-8.0.26.jar:8.0.26]
+	at org.hibernate.id.enhanced.TableStructure.executeQuery(TableStructure.java:220) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure.access$300(TableStructure.java:45) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:142) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1$1.execute(TableStructure.java:130) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:55) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.jdbc.AbstractReturningWork.accept(AbstractReturningWork.java:34) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:57) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.TableStructure$1.getNextValue(TableStructure.java:129) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.NoopOptimizer.generate(NoopOptimizer.java:40) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.id.enhanced.SequenceStyleGenerator.generate(SequenceStyleGenerator.java:534) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:115) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.saveWithGeneratedOrRequestedId(DefaultSaveOrUpdateEventListener.java:194) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.saveWithGeneratedOrRequestedId(DefaultSaveEventListener.java:38) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsTransient(DefaultSaveOrUpdateEventListener.java:179) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveEventListener.performSaveOrUpdate(DefaultSaveEventListener.java:32) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:75) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.fireSave(SessionImpl.java:676) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:669) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.internal.SessionImpl.save(SessionImpl.java:664) [hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at ru.sfedu.autoHelper.lab2.HibernateDataProvider.create(HibernateDataProvider.java:26) [classes/:?]
+	at ru.sfedu.autoHelper.AutoHelperApiTest.insertPositive(AutoHelperApiTest.java:29) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2022-02-18 16:49:57.003 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-02-18 16:49:57.003 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'panchenko.hibernate_sequence' doesn't exist
+2022-02-18 16:49:57.004 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.exception.SQLGrammarException: error performing isolated work
+2022-02-18 16:50:28.966 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:50:29.370 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:50:29.503 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:50:29.507 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:50:29.508 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:50:29.508 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:50:29.510 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:50:29.811 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:50:30.323 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:50:30.369 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-02-18 16:50:30.369 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'panchenko.testentity' doesn't exist
+2022-02-18 16:50:30.371 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.exception.SQLGrammarException: could not execute statement
+2022-02-18 16:51:51.752 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:51:52.150 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:51:52.289 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:51:52.293 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:51:52.294 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:51:52.294 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:51:52.296 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:51:52.595 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:51:53.127 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:51:53.173 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-02-18 16:51:53.173 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'panchenko.testentity' doesn't exist
+2022-02-18 16:51:53.174 [main] ERROR ru.sfedu.autoHelper.lab2.HibernateDataProvider - org.hibernate.exception.SQLGrammarException: could not execute statement
+2022-02-18 16:55:41.123 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:55:41.539 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:55:41.670 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:55:41.674 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:55:41.675 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:55:41.675 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:55:41.677 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:55:41.977 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:55:42.459 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@489bc8fd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-02-18 16:55:42.574 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
+2022-02-18 16:56:49.010 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-18 16:56:49.386 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-18 16:56:49.521 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-18 16:56:49.526 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-18 16:56:49.526 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-18 16:56:49.526 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-18 16:56:49.529 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-18 16:56:49.823 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-18 16:56:50.324 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d3c112a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-02-18 16:56:50.409 [main] INFO  ru.sfedu.autoHelper.lab2.HibernateDataProvider - session is opened
