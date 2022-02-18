@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cars>
+    <car>
+        <carProperties>
+            <currentOilBrand>ZIC</currentOilBrand>
+            <fuelAmount>10.0</fuelAmount>
+            <insuranceRunOutDate>22/01/2022</insuranceRunOutDate>
+            <wheelsType>Winter European</wheelsType>
+        </carProperties>
+        <color>Black</color>
+        <engineVolume>11.1</engineVolume>
+        <maker>Russia</maker>
+        <model>Lada Priora</model>
+        <productionYear>2010</productionYear>
+        <sparePart>
+            <installationDate>10/11/2020</installationDate>
+            <maker>Bosch</maker>
+            <type>Air filter</type>
+        </sparePart>
+        <transmission>MECHANICAL</transmission>
+    </car>
+    <car>
+        <carProperties>
+            <currentOilBrand>ZIC</currentOilBrand>
+            <fuelAmount>10.0</fuelAmount>
+            <insuranceRunOutDate>22/01/2022</insuranceRunOutDate>
+            <wheelsType>Winter European</wheelsType>
+        </carProperties>
+        <color>Black</color>
+        <engineVolume>11.1</engineVolume>
+        <maker>Russia</maker>
+        <model>Lada Priora</model>
+        <productionYear>2010</productionYear>
+        <sparePart>
+            <installationDate>10/11/2020</installationDate>
+            <maker>Bosch</maker>
+            <type>Air filter</type>
+        </sparePart>
+        <transmission>MECHANICAL</transmission>
+    </car>
+    <car>
+        <carProperties>
+            <currentOilBrand>ZIC</currentOilBrand>
+            <fuelAmount>10.0</fuelAmount>
+            <insuranceRunOutDate>22/01/2022</insuranceRunOutDate>
+            <wheelsType>Winter European</wheelsType>
+        </carProperties>
+        <color>Black</color>
+        <engineVolume>11.1</engineVolume>
+        <maker>Russia</maker>
+        <model>Lada Priora</model>
+        <productionYear>2010</productionYear>
+        <sparePart>
+            <installationDate>10/11/2020</installationDate>
+            <maker>Bosch</maker>
+            <type>Air filter</type>
+        </sparePart>
+        <transmission>MECHANICAL</transmission>
+    </car>
+</cars>

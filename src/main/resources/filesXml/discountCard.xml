@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<discountCards>
+    <discountCard>
+        <company>lukOil</company>
+        <description>Just one more note</description>
+        <barcode>true</barcode>
+        <nfc>false</nfc>
+        <number>234</number>
+    </discountCard>
+    <discountCard>
+        <company>lukOil</company>
+        <description>Just one more note</description>
+        <barcode>true</barcode>
+        <nfc>false</nfc>
+        <number>234</number>
+    </discountCard>
+    <discountCard>
+        <company>lukOil</company>
+        <barcode>true</barcode>
+        <nfc>false</nfc>
+        <number>234</number>
+    </discountCard>
+    <discountCard>
+        <company>Fit Service</company>
+        <description>Just note</description>
+        <barcode>false</barcode>
+        <nfc>false</nfc>
+        <number>87</number>
+    </discountCard>
+    <discountCard>
+        <company>lukOil</company>
+        <description>most profitable to refuel here</description>
+        <barcode>true</barcode>
+        <nfc>false</nfc>
+        <number>234</number>
+    </discountCard>
+    <discountCard>
+        <company>Fit Service</company>
+        <description>Just note</description>
+        <barcode>false</barcode>
+        <nfc>false</nfc>
+        <number>87</number>
+    </discountCard>
+    <discountCard>
+        <company>lukOil</company>
+        <barcode>true</barcode>
+        <nfc>false</nfc>
+        <number>234</number>
+    </discountCard>
+    <discountCard>
+        <company>lukOil</company>
+        <description>most profitable to refuel here</description>
+        <barcode>true</barcode>
+        <nfc>false</nfc>
+        <number>234</number>
+    </discountCard>
+    <discountCard>
+        <company>Fit Service</company>
+        <description>Just note</description>
+        <barcode>false</barcode>
+        <nfc>false</nfc>
+        <number>87</number>
+    </discountCard>
+    <discountCard>
+        <company>Fit Service</company>
+        <description>Just note</description>
+        <barcode>false</barcode>
+        <nfc>false</nfc>
+        <number>87</number>
+    </discountCard>
+</discountCards>
