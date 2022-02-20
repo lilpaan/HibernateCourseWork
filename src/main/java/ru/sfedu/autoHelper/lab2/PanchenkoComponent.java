@@ -8,7 +8,7 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class PanchenkoComponent {
     String name;
-    int phoneNumber;
+    Integer phoneNumber;
     String mainLanguage;
 
     public PanchenkoComponent() {

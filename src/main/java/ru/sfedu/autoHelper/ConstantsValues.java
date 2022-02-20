@@ -7,8 +7,15 @@ public class ConstantsValues {
     public static final String  LAB1_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab1/lab1.hbn_cfg.xml";
     public static final String  LAB2_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab2/lab2.hbn_cfg.xml";
 
-    // log info messages
+    // log messages
     public static final String SESSION_IS_OPENED = "session is opened";
+    public static final String FILE_WAS_INSERT = "file was insert successfully";
+    public static final String SESSION_IS_CLOSED = "close is closed";
+    public static final String OBJECT_WAS_DELETED = "object was deleted";
+    public static final String OBJECT_WAS_UPDATED = "object was updated";
+    public static final String LIST_OBJECT_WAS_READ = "list object was read";
+    public static final String OBJECT_WAS_READ = "object was read";
+
 
     // info about DB
     public static final String DB_NAME = "panchenko";
@@ -20,6 +27,9 @@ public class ConstantsValues {
     public static final String GET_USER_LIST = "SELECT user FROM mysql.user";
     public static final String GET_TABLE_LIST = "SELECT table_name FROM information_schema.tables;";
     public static final String GET_DATA_TYPES = "SELECT table_type FROM information_schema.tables;";
+
+    // sql-queries to lab 2
+    public static final String SQL_SELECT_ALL_DATA = "FROM TestEntity";
 
     // Constants-names of columns
     public static final String COLUMN_TEST_ENTITY_ID = "test_entity_id";

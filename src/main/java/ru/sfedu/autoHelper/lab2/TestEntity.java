@@ -24,6 +24,10 @@ public class TestEntity implements Serializable {
     public TestEntity() {
     }
 
+    public TestEntity(Long id) {
+        this.id = id;
+    }
+
     public TestEntity(Long id, String name, String description, Date dateCreated, Boolean check, PanchenkoComponent panchenkoComponent) {
         this.id = id;
         this.name = name;
