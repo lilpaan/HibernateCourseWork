@@ -6,10 +6,10 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-@Entity
+@Entity(name = ConstantsValues.TEST_ENTITY)
 public class TestEntity implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = ConstantsValues.COLUMN_TEST_ENTITY_ID)
     private Long id;
     @Column(name = ConstantsValues.COLUMN_TEST_ENTITY_NAME)
@@ -26,6 +26,14 @@ public class TestEntity implements Serializable {
 
     public TestEntity(Long id) {
         this.id = id;
+    }
+
+    public TestEntity(String name, String description, Date dateCreated, Boolean check, PanchenkoComponent panchenkoComponent) {
+        this.name = name;
+        this.description = description;
+        this.dateCreated = dateCreated;
+        this.check = check;
+        this.panchenkoComponent = panchenkoComponent;
     }
 
     public TestEntity(Long id, String name, String description, Date dateCreated, Boolean check, PanchenkoComponent panchenkoComponent) {

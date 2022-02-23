@@ -18,20 +18,21 @@ public class HibernateDataProvider implements IHibernateDataProvider {
     boolean isCreated;
 
     @Override
-    public boolean create(TestEntity testEntity) {
+    public Optional<TestEntity> create(TestEntity testEntity) {
+        Optional<TestEntity> optionalTestEntity;
         try {
             Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.save(testEntity);
             logger.info(ConstantsValues.FILE_WAS_INSERT);
+            optionalTestEntity = Optional.of(testEntity);
             session.close();
             logger.debug(ConstantsValues.SESSION_IS_CLOSED);
-            isCreated = true;
+            return optionalTestEntity;
         } catch (HibernateException e) {
             logger.error(e);
-            isCreated = false;
+            return Optional.empty();
         }
-        return isCreated;
     }
 
     @Override
@@ -40,7 +41,7 @@ public class HibernateDataProvider implements IHibernateDataProvider {
         try {
             Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
             logger.info(ConstantsValues.SESSION_IS_OPENED);
-            optionalTestEntity = Optional.ofNullable(session.get(TestEntity.class, id));
+            optionalTestEntity = Optional.of(session.get(TestEntity.class, id));
             logger.info(ConstantsValues.OBJECT_WAS_READ);
             session.close();
             logger.debug(ConstantsValues.SESSION_IS_CLOSED);

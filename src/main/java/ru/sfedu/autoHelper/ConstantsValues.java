@@ -19,6 +19,7 @@ public class ConstantsValues {
 
     // info about DB
     public static final String DB_NAME = "panchenko";
+
     // SQL-queries for lab 1
     public static final String GET_DATABASE_SIZE = "SELECT table_schema, " +
             "SUM(data_length + index_length) \n " +
@@ -29,12 +30,13 @@ public class ConstantsValues {
     public static final String GET_DATA_TYPES = "SELECT table_type FROM information_schema.tables;";
 
     // sql-queries to lab 2
-    public static final String SQL_SELECT_ALL_DATA = "FROM TestEntity";
+    public static final String SQL_SELECT_ALL_DATA = "FROM test_entity";
 
-    // Constants-names of columns
+    // Constants-names of columns or tables
     public static final String COLUMN_TEST_ENTITY_ID = "test_entity_id";
     public static final String COLUMN_TEST_ENTITY_NAME = "test_entity_name";
     public static final String COLUMN_TEST_ENTITY_CHECK = "test_entity_check";
+    public static final String TEST_ENTITY = "test_entity";
 
     // Ключи для environment.properties
     public static final String CAR_CSV = "CAR_CSV";

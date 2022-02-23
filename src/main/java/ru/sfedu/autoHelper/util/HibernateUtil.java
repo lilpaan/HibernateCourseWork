@@ -22,15 +22,15 @@ public class HibernateUtil {
     /**
      * Создание фабрики
      *© проф. Жмайлов Б.Б. ЮФУ, ИВТиП, каф. ИИТ
-     * @param lab1HbnCfg путь к файлу конфигурации
+     * @param labhbncfg путь к файлу конфигурации
      */
-    public static SessionFactory getSessionFactory(String lab1HbnCfg) {
+    public static SessionFactory getSessionFactory(String labhbncfg) {
         File file;
         if (sessionFactory == null) {
-            if (lab1HbnCfg == null){
+            if (labhbncfg == null){
                 file = new File(ConstantsValues.DEFAULT_HBN_CFG);
             } else {
-                file = new File(lab1HbnCfg);
+                file = new File(labhbncfg);
             }
             Configuration configuration = new Configuration().configure(file);
             ServiceRegistry serviceRegistry
