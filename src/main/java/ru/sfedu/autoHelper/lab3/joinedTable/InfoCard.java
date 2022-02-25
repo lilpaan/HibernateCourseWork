@@ -15,6 +15,7 @@ import java.util.Objects;
 @Inheritance(strategy = InheritanceType.JOINED)
 public class InfoCard {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
     String company;
     String description;
@@ -27,6 +28,11 @@ public class InfoCard {
      */
     public InfoCard(Long id, String company, String description) {
         this.id = id;
+        this.company = company;
+        this.description = description;
+    }
+
+    public InfoCard(String company, String description) {
         this.company = company;
         this.description = description;
     }

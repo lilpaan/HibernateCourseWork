@@ -10,10 +10,10 @@ import static org.junit.Assert.assertTrue;
 
 public class AutoHelperApiJoinedTableTest {
         IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
-        BusinessCard businessCard =
-                new BusinessCard(2L, "businessCompany", "companyDescription",
-                        "businessPhoneNumber", "businessAddress", "businessEmail",
-                        "businessSite");
+    BusinessCard businessCard =
+            new BusinessCard("businessCompany", "companyDescription",
+                    "businessPhoneNumber", "businessAddress", "businessEmail",
+                    "businessSite");
     DiscountCard discountCard =
             new DiscountCard(1L, "discountCompany", "discountDescription",
                     true, 12345, true);
@@ -25,7 +25,7 @@ public class AutoHelperApiJoinedTableTest {
          */
         @Test
         public void createPositive() {
-            Optional<BusinessCard> optionalBusinessCard = Optional.ofNullable(businessCard);
+            Optional<BusinessCard> optionalBusinessCard = Optional.of(businessCard);
             success = dataProviderHibernate.create(optionalBusinessCard);
             assertTrue(success);
         }
