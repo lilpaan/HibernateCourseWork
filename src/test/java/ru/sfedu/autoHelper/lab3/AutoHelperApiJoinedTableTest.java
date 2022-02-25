@@ -15,9 +15,10 @@ public class AutoHelperApiJoinedTableTest {
                     "businessPhoneNumber", "businessAddress", "businessEmail",
                     "businessSite");
     DiscountCard discountCard =
-            new DiscountCard(1L, "discountCompany", "discountDescription",
+            new DiscountCard("discountCompany", "discountDescription",
                     true, 12345, true);
-        boolean success;
+        boolean businessSuccess;
+        boolean discountSuccess;
 
         /**
          * добавление объекта
@@ -26,8 +27,11 @@ public class AutoHelperApiJoinedTableTest {
         @Test
         public void createPositive() {
             Optional<BusinessCard> optionalBusinessCard = Optional.of(businessCard);
-            success = dataProviderHibernate.create(optionalBusinessCard);
-            assertTrue(success);
+            Optional<DiscountCard> optionalDiscountCard = Optional.of(discountCard);
+            businessSuccess = dataProviderHibernate.create(optionalBusinessCard);
+            assertTrue(businessSuccess);
+            discountSuccess = dataProviderHibernate.create(optionalDiscountCard);
+            assertTrue(discountSuccess);
         }
 
         /**
