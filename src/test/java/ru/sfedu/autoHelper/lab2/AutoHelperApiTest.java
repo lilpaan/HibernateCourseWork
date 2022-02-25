@@ -1,7 +1,5 @@
 package ru.sfedu.autoHelper.lab2;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import java.util.Date;
 import java.util.List;
@@ -13,10 +11,10 @@ import static org.junit.Assert.*;
  * Класс для исполнения тестов
  */
 public class AutoHelperApiTest {
-    private static final Logger logger = LogManager.getLogger(AutoHelperApiTest.class);
     IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
-    boolean success;
     Date currentDate = new Date(System.currentTimeMillis());
+    TestEntity testEntity;
+    boolean success;
 
 
     /**
@@ -26,8 +24,7 @@ public class AutoHelperApiTest {
     @Test
     public void createPositive() {
         Optional<TestEntity> optionalTestEntity;
-        TestEntity testEntity = new TestEntity("name!", "descr!", currentDate, true,
-                new PanchenkoComponent("compName!", 223332, "sql!"));
+        testEntity = new TestEntity("name!", "descr!", currentDate, true, new PanchenkoComponent("compName!", 223332, "sql!"));
         optionalTestEntity = dataProviderHibernate.create(testEntity);
         assertNotEquals(Optional.empty(), optionalTestEntity);
     }
@@ -38,20 +35,17 @@ public class AutoHelperApiTest {
      */
     @Test
     public void readByIdPositive() {
-        long id;
-        Optional<TestEntity> optionalTestEntityy;
-        TestEntity testEntityy = new TestEntity("name!", "descr!", currentDate, true,
+        Optional<TestEntity> optionalTestEntity;
+        testEntity = new TestEntity("nahme!", "descr!", currentDate, true,
                 new PanchenkoComponent("compName!", 223332, "sql!"));
-        optionalTestEntityy = dataProviderHibernate.create(testEntityy);
-        if(optionalTestEntityy.isPresent()){
-            id = optionalTestEntityy.get().getId();
-            optionalTestEntityy = dataProviderHibernate.readById(id);
-            assertNotEquals( Optional.empty(), optionalTestEntityy);
+        optionalTestEntity = dataProviderHibernate.create(testEntity);
+        if(optionalTestEntity.isPresent()){
+            optionalTestEntity = dataProviderHibernate.readById(optionalTestEntity.get().getId());
+            assertNotEquals( Optional.empty(), optionalTestEntity);
         } else {
             fail();
         }
     }
-
 
     /**
      * чтение всех объектов
@@ -88,28 +82,15 @@ public class AutoHelperApiTest {
         assertTrue(success);
     }
 
-/**
-     * добавление объекта
-     * тип: негативный
-     */
 
-
-/*    @Test
-    public void createNegative() {
-        testEntity = new TestEntity(null, "ddfdfdf", "dfdfsdd", currentDate, true, null);
-        success = dataProviderHibernate.create(testEntity);
-        assertFalse(success);
-    }
-    */
     /**
      * чтение объекта по id
      * тип: негативный
      */
-
-
+    @Test
     public void readByIdNegative() {
         Optional<TestEntity> optionalTestEntity;
-        optionalTestEntity = dataProviderHibernate.readById(66L);
+        optionalTestEntity = dataProviderHibernate.readById(667L);
         assertEquals( Optional.empty(), optionalTestEntity);
     }
 

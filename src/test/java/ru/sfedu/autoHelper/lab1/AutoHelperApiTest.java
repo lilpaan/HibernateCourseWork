@@ -8,7 +8,7 @@ import org.junit.Test;
  * Класс для исполнения тестов к лабораторной работе 1
  */
 public class AutoHelperApiTest {
-    private static final Logger logger = LogManager.getLogger(ru.sfedu.autoHelper.lab2.AutoHelperApiTest.class);
+    private static final Logger logger = LogManager.getLogger(ru.sfedu.autoHelper.lab1.AutoHelperApiTest.class);
     IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
 
     /**

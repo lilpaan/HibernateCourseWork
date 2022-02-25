@@ -4,8 +4,9 @@ public class ConstantsValues {
 
     // config files for labs
     public static final String DEFAULT_HBN_CFG = "src/main/resources/hibernate.cfg.xml";
-    public static final String  LAB1_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab1/lab1.hbn_cfg.xml";
-    public static final String  LAB2_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab2/lab2.hbn_cfg.xml";
+    public static final String LAB1_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab1/lab1.hbn_cfg.xml";
+    public static final String LAB2_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab2/lab2.hbn_cfg.xml";
+    public static final String LAB3_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab3/lab3.hbn_cfg.xml";
 
     // log messages
     public static final String SESSION_IS_OPENED = "session is opened";
@@ -30,13 +31,27 @@ public class ConstantsValues {
     public static final String GET_DATA_TYPES = "SELECT table_type FROM information_schema.tables;";
 
     // sql-queries to lab 2
-    public static final String SQL_SELECT_ALL_DATA = "FROM test_entity";
+    public static final String SQL_SELECT_ALL_DATA = "FROM TestEntity";
 
     // Constants-names of columns or tables
     public static final String COLUMN_TEST_ENTITY_ID = "test_entity_id";
     public static final String COLUMN_TEST_ENTITY_NAME = "test_entity_name";
     public static final String COLUMN_TEST_ENTITY_CHECK = "test_entity_check";
-    public static final String TEST_ENTITY = "test_entity";
+    public static final String TEST_ENTITY = "TestEntity";
+
+    // constants uses in lab3
+    public static final String INFO_CARD_ID = "info_card_id";
+    public static final String INFO_CARD_JOINED_TABLE = "InfoCardJoinedTable";
+    public static final String DISCOUNT_CARD_JOINED_TABLE = "DiscountCardJoinedTable";
+    public static final String BUSINESS_CARD_JOINED_TABLE = "BusinessCardJoinedTable";
+    public static final String INFO_CARD_SINGLE_TABLE = "InfoCardSingleTable";
+    public static final String DISCOUNT_CARD_SINGLE_TABLE = "DiscountCardSingleTable";
+    public static final String BUSINESS_CARD_SINGLE_TABLE = "BusinessCardSingleTable";
+    public static final String DISCOUNT_CARD_MAPPED_SUPERCLASS = "DiscountCardMappedSuperclass";
+    public static final String BUSINESS_CARD_MAPPED_SUPERCLASS = "BusinessCardMappedSuperclass";
+    public static final String INFO_CARD_TABLE_PER_CLASS = "InfoCardTablePerClass";
+    public static final String DISCOUNT_CARD_TABLE_PER_CLASS = "DiscountCardTablePerClass";
+    public static final String BUSINESS_CARD_TABLE_PER_CLASS = "BusinessCardTablePerClass";
 
     // Ключи для environment.properties
     public static final String CAR_CSV = "CAR_CSV";

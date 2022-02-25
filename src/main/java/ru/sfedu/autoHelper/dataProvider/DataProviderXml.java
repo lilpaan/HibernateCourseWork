@@ -65,7 +65,7 @@ public class DataProviderXml implements IDataProvider {
 
     /**
      * Чтение объекта из xml-файла
-     * @param typeClass передаёт объект, куда считается файл
+     * @param typeClass передаёт объект, откуда считается файл
      * @param xmlDir параметр для указания пути к xml-файлу
      * @return считанные данные, упакованные в Optional
      */

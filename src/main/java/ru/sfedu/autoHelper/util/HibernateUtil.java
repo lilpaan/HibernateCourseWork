@@ -8,8 +8,10 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.query.NativeQuery;
 import org.hibernate.service.ServiceRegistry;
 import ru.sfedu.autoHelper.ConstantsValues;
-import ru.sfedu.autoHelper.entity.Car;
 import ru.sfedu.autoHelper.lab2.TestEntity;
+import ru.sfedu.autoHelper.lab3.mappedSuperclass.BusinessCard;
+import ru.sfedu.autoHelper.lab3.mappedSuperclass.DiscountCard;
+import ru.sfedu.autoHelper.lab3.mappedSuperclass.InfoCard;
 
 import java.io.File;
 
@@ -38,8 +40,25 @@ public class HibernateUtil {
                     .applySettings(configuration.getProperties()).build();
             MetadataSources metadataSources =
                     new MetadataSources(serviceRegistry);
-            metadataSources.addAnnotatedClass(Car.class);// Аннотированная сущность
+            // аннотированная сущность для лабораторной работы 2
             metadataSources.addAnnotatedClass(TestEntity.class);
+            // аннотированные сущности для лабораторной работы 3. стратегия Mapped Superclass
+            metadataSources.addAnnotatedClass(InfoCard.class);
+            metadataSources.addAnnotatedClass(BusinessCard.class);
+            metadataSources.addAnnotatedClass(DiscountCard.class);
+            // аннотированные сущности для лабораторной работы 3. стратегия Single Table
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.singleTable.InfoCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.singleTable.BusinessCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.singleTable.DiscountCard.class);
+            // аннотированные сущности для лабораторной работы 3. стратегия Joined Table
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.joinedTable.InfoCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.joinedTable.BusinessCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.joinedTable.DiscountCard.class);
+            // аннотированные сущности для лабораторной работы 3. стратегия Table Per Class
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.InfoCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.BusinessCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.DiscountCard.class);
+
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }
 
@@ -64,5 +83,6 @@ public class HibernateUtil {
         SessionFactory sessionFactory =  HibernateUtil.getSessionFactory(labConfig);
         return sessionFactory.openSession();
     }
+
 }
 
