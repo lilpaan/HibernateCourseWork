@@ -54,11 +54,12 @@ public class HibernateDataProvider implements IHibernateDataProvider {
         try {
             Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
             logger.info(ConstantsValues.SESSION_IS_OPENED);
+            session.beginTransaction();
             testEntityList = Optional.ofNullable(session.createQuery
                     (ConstantsValues.SQL_SELECT_ALL_DATA, TestEntity.class).getResultList());
             logger.info(ConstantsValues.LIST_OBJECT_WAS_READ);
-            session.close();
-            logger.debug(ConstantsValues.SESSION_IS_CLOSED);
+            session.getTransaction().commit();
+            logger.debug(ConstantsValues.TRANSACTION_COMPLETED);
         } catch (Exception e) {
             logger.error(e);
             return Optional.empty();
@@ -90,10 +91,11 @@ public class HibernateDataProvider implements IHibernateDataProvider {
         try {
             Session session = HibernateUtil.openSession(ConstantsValues.LAB2_HBN_CFG);
             logger.info(ConstantsValues.SESSION_IS_OPENED);
+            session.beginTransaction();
             session.delete(new TestEntity(id));
             logger.info(ConstantsValues.OBJECT_WAS_DELETED);
-            session.close();
-            logger.debug(ConstantsValues.SESSION_IS_CLOSED);
+            session.getTransaction().commit();
+            logger.debug(ConstantsValues.TRANSACTION_COMPLETED);
             isDeleted = true;
         } catch (Exception e) {
             logger.error(e);

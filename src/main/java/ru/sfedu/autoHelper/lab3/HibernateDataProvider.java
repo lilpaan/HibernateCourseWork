@@ -6,30 +6,28 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import ru.sfedu.autoHelper.ConstantsValues;
 import ru.sfedu.autoHelper.util.HibernateUtil;
+
+import java.util.List;
 import java.util.Optional;
 
 public class HibernateDataProvider implements IHibernateDataProvider{
     private static final Logger logger = LogManager.getLogger(ru.sfedu.autoHelper.lab3.HibernateDataProvider.class);
 
     @Override
-    public <T> boolean create(Optional<T> object) {
-        boolean isCreated;
-        Object requiredObject = null;
+    public <T> Optional<T> create(T object) {
+        Optional<T> optionalObject;
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
-            if(object.isPresent()) {
-                requiredObject = object.get();
-            }
-            session.save(requiredObject);
+            session.save(object);
             session.getTransaction().commit();
             logger.info(ConstantsValues.FILE_WAS_INSERT);
-            isCreated = true;
+            optionalObject = Optional.ofNullable(object);
         } catch (HibernateException e) {
             logger.error(e);
-            isCreated = false;
+            optionalObject = Optional.empty();
         }
-        return isCreated;
+        return optionalObject;
     }
 
     @Override
@@ -46,31 +44,10 @@ public class HibernateDataProvider implements IHibernateDataProvider{
         return optional;
     }
 
-/*    @Override
-// ????? List <T> list
-// ???? <T> Optional<List<T>>
-    public Optional<List<T>> readAll() {
-        Optional<List<T>> testEntityList;
-        try {
-            Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG);
-            logger.info(ConstantsValues.SESSION_IS_OPENED);
-            testEntityList = Optional.ofNullable(session.createQuery
-                    (ConstantsValues.SQL_SELECT_ALL_DATA, TestEntity.class).getResultList());
-            logger.info(ConstantsValues.LIST_OBJECT_WAS_READ);
-            session.close();
-            logger.debug(ConstantsValues.SESSION_IS_CLOSED);
-        } catch (Exception e) {
-            logger.error(e);
-            return Optional.empty();
-        }
-        return testEntityList;
-    }*/
-
     @Override
-    public <T> boolean update(Optional<T> object) {
+    public <T> boolean update(T object) {
         boolean isUpdated;
-        try {
-            Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG);
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {;
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.update(object);
@@ -86,15 +63,15 @@ public class HibernateDataProvider implements IHibernateDataProvider{
     }
 
     @Override
-    public <T> boolean delete(Optional<T> object) {
+    public <T> boolean delete(T object) {
         boolean isDeleted;
-        try {
-            Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG);
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {
             logger.info(ConstantsValues.SESSION_IS_OPENED);
+            session.beginTransaction();
             session.delete(object);
             logger.info(ConstantsValues.OBJECT_WAS_DELETED);
-            session.close();
-            logger.debug(ConstantsValues.SESSION_IS_CLOSED);
+            session.getTransaction().commit();
+            logger.debug(ConstantsValues.TRANSACTION_COMPLETED);
             isDeleted = true;
         } catch (Exception e) {
             logger.error(e);

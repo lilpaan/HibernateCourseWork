@@ -78,7 +78,7 @@ public class AutoHelperApiTest {
 
     @Test
     public void deletePositive() {
-        success = dataProviderHibernate.delete(6L);
+        success = dataProviderHibernate.delete(8L);
         assertTrue(success);
     }
 

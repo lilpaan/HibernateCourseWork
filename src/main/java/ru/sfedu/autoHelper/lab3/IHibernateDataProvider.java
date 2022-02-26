@@ -14,7 +14,7 @@ public interface IHibernateDataProvider {
      * Метод для добавления объекта в базу данных
      * @param object необходимый для добавления экземпляр
      */
-    <T> boolean create(Optional<T> object);
+    <T> Optional<T> create(T object);
 
     /**
      * Метод для получения объекта по конкретному id
@@ -25,21 +25,15 @@ public interface IHibernateDataProvider {
     <T> Optional<T> readById(Class<T> typeClass, long id);
 
     /**
-     * Метод для получения всех существующих экземпляров
-     * @return список объектов
-     */
- //   Optional<List<Object>> readAll();
-
-    /**
      * Метод для внесения изменений в экземпляр объекта
      * @param object экземпляр, который необходимо изменить
      */
-    <T> boolean update(Optional<T> object);
+    <T> boolean update(T object);
 
     /**
      * Метод для удаления экземпляра объекта по выбранному id
      * @param object  экземпляр, который необъодимо удалить
      */
-    <T> boolean delete(Optional<T> object);
+    <T> boolean delete(T object);
 
 }

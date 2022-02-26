@@ -43,6 +43,10 @@ public class BusinessCard extends InfoCard {
         this.site = site;
     }
 
+    public BusinessCard(Long id) {
+        super(id);
+    }
+
     public BusinessCard() {
     }
 

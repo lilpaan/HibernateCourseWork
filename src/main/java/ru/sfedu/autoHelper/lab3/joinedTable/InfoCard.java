@@ -37,6 +37,10 @@ public class InfoCard {
         this.description = description;
     }
 
+    public InfoCard(Long id) {
+        this.id = id;
+    }
+
     public InfoCard() {
     }
 

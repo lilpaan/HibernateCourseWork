@@ -16,6 +16,7 @@ public class ConstantsValues {
     public static final String OBJECT_WAS_UPDATED = "object was updated";
     public static final String LIST_OBJECT_WAS_READ = "list object was read";
     public static final String OBJECT_WAS_READ = "object was read";
+    public static final String TRANSACTION_COMPLETED = "transaction completed";
 
 
     // info about DB
@@ -52,6 +53,9 @@ public class ConstantsValues {
     public static final String INFO_CARD_TABLE_PER_CLASS = "InfoCardTablePerClass";
     public static final String DISCOUNT_CARD_TABLE_PER_CLASS = "DiscountCardTablePerClass";
     public static final String BUSINESS_CARD_TABLE_PER_CLASS = "BusinessCardTablePerClass";
+
+    // sql-queries to lab 3
+    public static final String SQL_SELECT_ALL_DATA_BUSINESS_JOINED = "FROM businesscardjoinedtable";
 
     // Ключи для environment.properties
     public static final String CAR_CSV = "CAR_CSV";

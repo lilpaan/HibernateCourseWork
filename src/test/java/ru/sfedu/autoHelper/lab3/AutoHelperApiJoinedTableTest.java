@@ -4,21 +4,17 @@ import org.junit.Test;
 import ru.sfedu.autoHelper.lab3.joinedTable.DiscountCard;
 import ru.sfedu.autoHelper.lab3.joinedTable.BusinessCard;
 
+import java.util.List;
 import java.util.Optional;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class AutoHelperApiJoinedTableTest {
-        IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
-    BusinessCard businessCard =
-            new BusinessCard("businessCompany", "companyDescription",
-                    "businessPhoneNumber", "businessAddress", "businessEmail",
-                    "businessSite");
-    DiscountCard discountCard =
-            new DiscountCard("discountCompany", "discountDescription",
-                    true, 12345, true);
-        boolean businessSuccess;
-        boolean discountSuccess;
+    IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
+    BusinessCard businessCard;
+    DiscountCard discountCard;
+    boolean businessSuccess;
+    boolean discountSuccess;
 
         /**
          * добавление объекта
@@ -26,92 +22,75 @@ public class AutoHelperApiJoinedTableTest {
          */
         @Test
         public void createPositive() {
-            Optional<BusinessCard> optionalBusinessCard = Optional.of(businessCard);
-            Optional<DiscountCard> optionalDiscountCard = Optional.of(discountCard);
-            businessSuccess = dataProviderHibernate.create(optionalBusinessCard);
-            assertTrue(businessSuccess);
-            discountSuccess = dataProviderHibernate.create(optionalDiscountCard);
-            assertTrue(discountSuccess);
+            businessCard = new BusinessCard("businessCompany", "companyDescription",
+                    "businessPhoneNumber", "businessAddress", "businessEmail",
+                    "businessSite");
+            discountCard =
+            new DiscountCard("discountCompany", "discountDescription", true, 12345,
+                    true);
+            Optional<BusinessCard> optionalBusinessCard = dataProviderHibernate.create(businessCard);
+            Optional<DiscountCard> optionalDiscountCard = dataProviderHibernate.create(discountCard);
+            assertNotEquals(Optional.empty(), optionalBusinessCard);
+            assertNotEquals(Optional.empty(), optionalDiscountCard);
+
         }
 
         /**
          * чтение объекта по id
          * тип: позитивный
          */
-/*        @Test
+        @Test
         public void readByIdPositive() {
-            Optional<TestEntity> optionalTestEntity;
-            Object object;
-            optionalTestEntity = dataProviderHibernate.create(object);
-            if(optionalTestEntity.isPresent()){
-                optionalTestEntity = dataProviderHibernate.readById(optionalTestEntity.get().getId());
-                assertNotEquals( Optional.empty(), optionalTestEntity);
+            businessCard = new BusinessCard("businessCompany", "companyDescription",
+                    "businessPhoneNumber", "businessAddress", "businessEmail",
+                    "businessSite");
+            discountCard =
+                    new DiscountCard("discountCompany", "discountDescription", true, 12345,
+                            true);
+            Optional<BusinessCard> optionalBusinessCard = dataProviderHibernate.create(businessCard);
+            Optional<DiscountCard> optionalDiscountCard = dataProviderHibernate.create(discountCard);
+            if(optionalBusinessCard.isPresent() && (optionalDiscountCard.isPresent())){
+                optionalBusinessCard
+                        = dataProviderHibernate.readById(BusinessCard.class, optionalBusinessCard.get().getId());
+                optionalDiscountCard
+                        = dataProviderHibernate.readById(DiscountCard.class, optionalDiscountCard.get().getId());
+                assertNotEquals( Optional.empty(), optionalBusinessCard);
+                assertNotEquals( Optional.empty(), optionalDiscountCard);
             } else {
                 fail();
             }
-        }*/
-
-        /**
-         * чтение всех объектов
-         * тип: позитивный
-         */
-/*        @Test
-        public void readAllPositive() {
-            Optional<List<TestEntity>> optionalTestEntityList;
-            optionalTestEntityList = dataProviderHibernate.readAll();
-            assertNotEquals( Optional.empty(), optionalTestEntityList);
-        }*/
-
+        }
 
         /**
          * обновление объекта
          * тип: позитивный
          */
-/*        @Test
+        @Test
         public void updatePositive() {
-            TestEntity newTestEntity = new TestEntity(2L, "newInfo", "dfdfsdd", currentDate,
-                    true, new PanchenkoComponent("dsddd", 223332, "sdsql"));
-            success = dataProviderHibernate.update(newTestEntity);
-            assertTrue(success);
-        }*/
+            BusinessCard newBusinessCard = new BusinessCard(10L, "newBusinessCompany", "newCompanyDescription",
+                    "newBusinessPhoneNumber", "newBusinessAddress", "newBusinessEmail",
+                    "newBusinessSite");
+            DiscountCard newDiscountCard =
+                    new DiscountCard(11L, "newDiscountCompany", "newDiscountDescription", false, 54321,
+                            false);
+            businessSuccess = dataProviderHibernate.update(newBusinessCard);;
+            discountSuccess = dataProviderHibernate.update(newDiscountCard);
+            assertTrue(businessSuccess);
+            assertTrue(discountSuccess);
+        }
 
         /**
          * удаление объекта по id
          * тип: позитивный
          */
-
-/*
         @Test
         public void deletePositive() {
-            success = dataProviderHibernate.delete(6L);
-            assertTrue(success);
+            businessCard = new BusinessCard(38L);
+            discountCard = new DiscountCard(39L);
+            businessSuccess = dataProviderHibernate.delete(businessCard);
+            discountSuccess = dataProviderHibernate.delete(discountCard);
+            assertTrue(businessSuccess);
+            assertTrue(discountSuccess);
         }
-*/
-
-
-        /**
-         * чтение объекта по id
-         * тип: негативный
-         */
- //       @Test
-/*        public void readByIdNegative() {
-            Optional<TestEntity> optionalTestEntity;
-            optionalTestEntity = dataProviderHibernate.readById(667L);
-            assertEquals( Optional.empty(), optionalTestEntity);
-        }*/
-
-
-        /**
-         * обновление объекта
-         * тип: негативный
-         */
-/*
-        @Test
-        public void updateNegative() {
-            success = dataProviderHibernate.update(null);
-            assertFalse(success);
-        }
-
-    }*/
 
 }

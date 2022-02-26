@@ -45,6 +45,10 @@ public class DiscountCard extends InfoCard {
         this.barcode = barcode;
     }
 
+    public DiscountCard(Long id) {
+        super(id);
+    }
+
     public DiscountCard() {
     }
 
