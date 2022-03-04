@@ -49,7 +49,7 @@ public class HibernateDataProvider implements IHibernateDataProvider {
     @Override
     public <T> boolean update(T object) {
         boolean isUpdated;
-        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB4_HBN_CFG)) {;
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB4_HBN_CFG)) {
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.update(object);

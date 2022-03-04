@@ -48,13 +48,23 @@ public class ConstantsValues {
     public static final String USER_INFO_CARD_FIRST_NEW = "userInfoCardFirstNEW";
     public static final String USER_INFO_CARD_SECOND_NEW = "userInfoCardSecondNEW";
     public static final String USER_INFO_CARD_THIRD_NEW = "userInfoCardThirdNEW";
+    public static final String USER_INFO_CARD_FIRST_INFO = "FirstInfo";
+    public static final String USER_INFO_CARD_SECOND_INFO = "SecondInfo";
+    public static final String USER_INFO_CARD_THIRD_INFO = "ThirdInfo";
+    public static final String USER_INFO_CARD_FIRST_NEW_INFO = "FirstInfoNEW";
+    public static final String USER_INFO_CARD_SECOND_NEW_INFO = "SecondInfoNEW";
+    public static final String USER_INFO_CARD_THIRD_NEW_INFO = "ThirdInfoNEW";
     public static final String INFO_CARD_LIST = "info_card_list";
+    public static final String INFO_CARD_KEY_COLUMN = "info_card_key";
+    public static final String INFO_CARD_MAP = "info_card_map";
     public static final String INFO_CARDS = "info_cards";
     public static final String USER_SET_TYPE = "user_set_type";
     public static final String USER_LIST_TYPE = "user_list_type";
     public static final String USER_MAP_COMPONENT_TYPE = "user_map_component_type";
     public static final String USER_MAP_TYPE = "user_map_type";
     public static final String USER_COMPONENT_TYPE = "user_component_type";
+    public static final String INFO_CARD_COMPONENT = "info_card_component";
+    public static final String INFO_CARD_COMPONENT_DESCRIPTION = "info_card_description";
 
     // constants uses in lab3
     public static final String INFO_CARD_ID = "info_card_id";

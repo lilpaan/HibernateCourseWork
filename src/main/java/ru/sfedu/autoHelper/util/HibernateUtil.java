@@ -62,7 +62,9 @@ public class HibernateUtil {
             // аннотированные сущности для лабораторной работы 4. отображение коллекции типа Set
             metadataSources.addAnnotatedClass(User.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.listTypeMapping.User.class);
-            //metadataSources.addAnnotatedClass(Use)
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.mapTypeMapping.User.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.componentTypeMapping.User.class);
+            //metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.mapComponentTypeMapping.User.class);
 
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }
