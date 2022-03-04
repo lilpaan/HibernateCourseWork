@@ -1,10 +1,9 @@
 package ru.sfedu.autoHelper.lab3;
 
 import org.junit.Test;
-import ru.sfedu.autoHelper.lab3.joinedTable.DiscountCard;
 import ru.sfedu.autoHelper.lab3.joinedTable.BusinessCard;
+import ru.sfedu.autoHelper.lab3.joinedTable.DiscountCard;
 
-import java.util.List;
 import java.util.Optional;
 
 import static org.junit.Assert.*;
@@ -67,14 +66,27 @@ public class AutoHelperApiJoinedTableTest {
          */
         @Test
         public void updatePositive() {
-            BusinessCard newBusinessCard = new BusinessCard(10L, "newBusinessCompany", "newCompanyDescription",
-                    "newBusinessPhoneNumber", "newBusinessAddress", "newBusinessEmail",
-                    "newBusinessSite");
-            DiscountCard newDiscountCard =
-                    new DiscountCard(11L, "newDiscountCompany", "newDiscountDescription", false, 54321,
-                            false);
-            businessSuccess = dataProviderHibernate.update(newBusinessCard);;
-            discountSuccess = dataProviderHibernate.update(newDiscountCard);
+            BusinessCard businessCardForUpdate = new BusinessCard("businessCompany",
+                    "companyDescription", "businessPhoneNumber", "businessAddress",
+                    "businessEmail", "businessSite");
+            DiscountCard discountCardForUpdate = new DiscountCard("discountCompany",
+                    "discountDescription", true, 12345, true);
+            BusinessCard newBusinessCard = new BusinessCard( "newBusinessCompany",
+                    "newCompanyDescription", "newBusinessPhoneNumber", "newBusinessAddress",
+                    "newBusinessEmail", "newBusinessSite");
+            DiscountCard newDiscountCard = new DiscountCard("newDiscountCompany",
+                    "newDiscountDescription", false, 54321, false);
+            Optional<BusinessCard> optionalBusinessCard = dataProviderHibernate.create(businessCardForUpdate);
+            Optional<DiscountCard> optionalDiscountCard = dataProviderHibernate.create(discountCardForUpdate);
+            if(optionalBusinessCard.isPresent() && optionalDiscountCard.isPresent()) {
+                newBusinessCard.setId(optionalBusinessCard.get().getId());
+                newDiscountCard.setId(optionalDiscountCard.get().getId());
+                businessSuccess = dataProviderHibernate.update(newBusinessCard);
+                discountSuccess = dataProviderHibernate.update(newDiscountCard);
+            }
+            else {
+                fail();
+            }
             assertTrue(businessSuccess);
             assertTrue(discountSuccess);
         }
@@ -85,10 +97,26 @@ public class AutoHelperApiJoinedTableTest {
          */
         @Test
         public void deletePositive() {
-            businessCard = new BusinessCard(38L);
+            BusinessCard businessCardForDelete = new BusinessCard("businessCompany",
+                    "companyDescription", "businessPhoneNumber", "businessAddress",
+                    "businessEmail", "businessSite");
+            DiscountCard discountCardForDelete = new DiscountCard("discountCompany",
+                    "discountDescription", true, 12345, true);
+            Optional<BusinessCard> optionalBusinessCard = dataProviderHibernate.create(businessCardForDelete);
+            Optional<DiscountCard> optionalDiscountCard = dataProviderHibernate.create(discountCardForDelete);
+            if(optionalBusinessCard.isPresent() && optionalDiscountCard.isPresent()) {
+                businessSuccess = dataProviderHibernate
+                        .delete(new BusinessCard(optionalBusinessCard.get().getId()));
+                discountSuccess = dataProviderHibernate
+                        .delete(new DiscountCard(optionalDiscountCard.get().getId()));
+            } else {
+                fail();
+            }
+            // для удаления по конкретным id
+            /*businessCard = new BusinessCard(38L);
             discountCard = new DiscountCard(39L);
             businessSuccess = dataProviderHibernate.delete(businessCard);
-            discountSuccess = dataProviderHibernate.delete(discountCard);
+            discountSuccess = dataProviderHibernate.delete(discountCard);*/
             assertTrue(businessSuccess);
             assertTrue(discountSuccess);
         }

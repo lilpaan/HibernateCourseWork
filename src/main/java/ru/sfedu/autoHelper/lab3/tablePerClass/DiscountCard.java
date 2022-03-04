@@ -30,10 +30,21 @@ public class DiscountCard extends InfoCard {
         this.barcode = barcode;
     }
 
+    public DiscountCard(String company, String description, boolean nfc, int number, boolean barcode) {
+        super(company, description);
+        this.nfc = nfc;
+        this.number = number;
+        this.barcode = barcode;
+    }
+
     public DiscountCard(boolean nfc, int number, boolean barcode) {
         this.nfc = nfc;
         this.number = number;
         this.barcode = barcode;
+    }
+
+    public DiscountCard(Long id) {
+        super(id);
     }
 
     public DiscountCard() {

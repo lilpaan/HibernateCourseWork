@@ -7,6 +7,7 @@ public class ConstantsValues {
     public static final String LAB1_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab1/lab1.hbn_cfg.xml";
     public static final String LAB2_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab2/lab2.hbn_cfg.xml";
     public static final String LAB3_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab3/lab3.hbn_cfg.xml";
+    public static final String LAB4_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab4/lab4.hbn_cfg.xml";
 
     // log messages
     public static final String SESSION_IS_OPENED = "session is opened";
@@ -40,6 +41,14 @@ public class ConstantsValues {
     public static final String COLUMN_TEST_ENTITY_CHECK = "test_entity_check";
     public static final String TEST_ENTITY = "TestEntity";
 
+    // lab 4 constants for adding in collections;
+    public static final String USER_INFO_CARD_FIRST = "userInfoCardFirst";
+    public static final String USER_INFO_CARD_SECOND = "userInfoCardSecond";
+    public static final String USER_INFO_CARD_THIRD = "userInfoCardThird";
+    public static final String USER_INFO_CARD_FIRST_NEW = "userInfoCardFirstNEW";
+    public static final String USER_INFO_CARD_SECOND_NEW = "userInfoCardSecondNEW";
+    public static final String USER_INFO_CARD_THIRD_NEW = "userInfoCardThirdNEW";
+
     // constants uses in lab3
     public static final String INFO_CARD_ID = "info_card_id";
     public static final String INFO_CARD_JOINED_TABLE = "InfoCardJoinedTable";
@@ -53,9 +62,6 @@ public class ConstantsValues {
     public static final String INFO_CARD_TABLE_PER_CLASS = "InfoCardTablePerClass";
     public static final String DISCOUNT_CARD_TABLE_PER_CLASS = "DiscountCardTablePerClass";
     public static final String BUSINESS_CARD_TABLE_PER_CLASS = "BusinessCardTablePerClass";
-
-    // sql-queries to lab 3
-    public static final String SQL_SELECT_ALL_DATA_BUSINESS_JOINED = "FROM businesscardjoinedtable";
 
     // Ключи для environment.properties
     public static final String CAR_CSV = "CAR_CSV";

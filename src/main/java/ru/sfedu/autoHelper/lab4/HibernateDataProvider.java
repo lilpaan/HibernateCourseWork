@@ -1,4 +1,4 @@
-package ru.sfedu.autoHelper.lab3;
+package ru.sfedu.autoHelper.lab4;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,13 +9,13 @@ import ru.sfedu.autoHelper.util.HibernateUtil;
 
 import java.util.Optional;
 
-public class HibernateDataProvider implements IHibernateDataProvider{
-    private static final Logger logger = LogManager.getLogger(ru.sfedu.autoHelper.lab3.HibernateDataProvider.class);
+public class HibernateDataProvider implements IHibernateDataProvider {
+    private static final Logger logger = LogManager.getLogger(HibernateDataProvider.class);
 
     @Override
     public <T> Optional<T> create(T object) {
         Optional<T> optionalObject;
-        try(Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {
+        try(Session session = HibernateUtil.openSession(ConstantsValues.LAB4_HBN_CFG)) {
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.save(object);
@@ -32,9 +32,12 @@ public class HibernateDataProvider implements IHibernateDataProvider{
     @Override
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         Optional<T> optional;
-        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB4_HBN_CFG)) {
+            logger.info(ConstantsValues.SESSION_IS_OPENED);
+            session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             optional = Optional.ofNullable(session.get(typeClass, id));
+            session.getTransaction().commit();
             logger.info(ConstantsValues.OBJECT_WAS_READ);
         } catch (Exception e) {
             logger.error(e);
@@ -46,7 +49,7 @@ public class HibernateDataProvider implements IHibernateDataProvider{
     @Override
     public <T> boolean update(T object) {
         boolean isUpdated;
-        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {;
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB4_HBN_CFG)) {;
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.update(object);
@@ -64,7 +67,7 @@ public class HibernateDataProvider implements IHibernateDataProvider{
     @Override
     public <T> boolean delete(T object) {
         boolean isDeleted;
-        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB3_HBN_CFG)) {
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB4_HBN_CFG)) {
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.beginTransaction();
             session.delete(object);

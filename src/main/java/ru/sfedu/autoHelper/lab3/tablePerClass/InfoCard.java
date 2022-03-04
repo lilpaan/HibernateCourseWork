@@ -2,10 +2,7 @@ package ru.sfedu.autoHelper.lab3.tablePerClass;
 
 import ru.sfedu.autoHelper.ConstantsValues;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
+import javax.persistence.*;
 import java.util.Objects;
 
 /**
@@ -18,6 +15,7 @@ import java.util.Objects;
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public class InfoCard {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
     String company;
     String description;
@@ -32,6 +30,15 @@ public class InfoCard {
         this.id = id;
         this.company = company;
         this.description = description;
+    }
+
+    public InfoCard(String company, String description) {
+        this.company = company;
+        this.description = description;
+    }
+
+    public InfoCard(Long id) {
+        this.id = id;
     }
 
     public InfoCard() {

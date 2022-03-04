@@ -12,6 +12,7 @@ import ru.sfedu.autoHelper.lab2.TestEntity;
 import ru.sfedu.autoHelper.lab3.mappedSuperclass.BusinessCard;
 import ru.sfedu.autoHelper.lab3.mappedSuperclass.DiscountCard;
 import ru.sfedu.autoHelper.lab3.mappedSuperclass.InfoCard;
+import ru.sfedu.autoHelper.lab4.setTypeMapping.User;
 
 import java.io.File;
 
@@ -58,6 +59,8 @@ public class HibernateUtil {
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.InfoCard.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.BusinessCard.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.DiscountCard.class);
+            // аннотированные сущности для лабораторной работы 4. отображение коллекции типа Set
+            metadataSources.addAnnotatedClass(User.class);
 
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }

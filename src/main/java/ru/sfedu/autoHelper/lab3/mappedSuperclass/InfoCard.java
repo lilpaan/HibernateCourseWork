@@ -1,5 +1,7 @@
 package ru.sfedu.autoHelper.lab3.mappedSuperclass;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.util.Objects;
@@ -13,6 +15,7 @@ import java.util.Objects;
 @MappedSuperclass
 public class InfoCard {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
     String company;
     String description;
@@ -27,6 +30,15 @@ public class InfoCard {
         this.id = id;
         this.company = company;
         this.description = description;
+    }
+
+    public InfoCard(String company, String description) {
+        this.company = company;
+        this.description = description;
+    }
+
+    public InfoCard(Long id) {
+        this.id = id;
     }
 
     public InfoCard() {

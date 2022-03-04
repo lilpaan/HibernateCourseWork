@@ -33,6 +33,18 @@ public class BusinessCard extends InfoCard {
         this.site = site;
     }
 
+    public BusinessCard(String company, String description, String phoneNumber, String address, String email, String site) {
+        super(company, description);
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+        this.email = email;
+        this.site = site;
+    }
+
+    public BusinessCard(Long id) {
+        super(id);
+    }
+
     public BusinessCard() {
     }
 
