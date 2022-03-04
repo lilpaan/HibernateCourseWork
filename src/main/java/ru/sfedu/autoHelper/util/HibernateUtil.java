@@ -61,6 +61,8 @@ public class HibernateUtil {
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.DiscountCard.class);
             // аннотированные сущности для лабораторной работы 4. отображение коллекции типа Set
             metadataSources.addAnnotatedClass(User.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.listTypeMapping.User.class);
+            //metadataSources.addAnnotatedClass(Use)
 
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }

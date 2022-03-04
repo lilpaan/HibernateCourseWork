@@ -1,11 +1,13 @@
 package ru.sfedu.autoHelper.lab4.setTypeMapping;
 
+import ru.sfedu.autoHelper.ConstantsValues;
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-@Entity
+@Entity(name = ConstantsValues.USER_SET_TYPE)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

@@ -1,0 +1,37 @@
+2022-02-28 08:45:24.154 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-02-28 08:45:24.780 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-28 08:45:24.937 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-02-28 08:45:24.942 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-02-28 08:45:24.943 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-02-28 08:45:24.943 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-02-28 08:45:24.946 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-02-28 08:45:25.408 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-02-28 08:45:26.147 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@367d34c0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-02-28 08:45:26.297 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.362 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.363 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.371 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.371 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.375 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was deleted
+2022-02-28 08:45:26.380 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.380 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was deleted
+2022-02-28 08:45:26.384 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.391 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.392 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.398 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.398 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.412 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-02-28 08:45:26.413 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.416 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-02-28 08:45:26.417 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.425 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.426 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.437 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.438 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.442 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was updated
+2022-02-28 08:45:26.443 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.446 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was updated
+2022-02-28 08:45:26.447 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.455 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-02-28 08:45:26.457 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-02-28 08:45:26.463 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully

@@ -1,0 +1,763 @@
+2022-03-04 15:43:31.662 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 15:43:32.114 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 15:43:32.261 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 15:43:32.268 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 15:43:32.268 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 15:43:32.269 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 15:43:32.271 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 15:43:32.714 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 15:43:33.412 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7558633] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 15:43:33.554 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 15:43:33.558 [main] ERROR ru.sfedu.autoHelper.lab4.HibernateDataProvider - org.hibernate.MappingException: Unknown entity: ru.sfedu.autoHelper.lab4.setTypeMapping.User
+2022-03-04 15:44:12.447 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 15:44:12.849 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 15:44:12.980 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 15:44:12.985 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 15:44:12.985 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 15:44:12.985 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 15:44:12.988 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 15:44:13.392 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 15:44:14.087 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7558633] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 15:44:14.215 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 15:44:14.217 [main] ERROR ru.sfedu.autoHelper.lab4.HibernateDataProvider - org.hibernate.MappingException: Unknown entity: ru.sfedu.autoHelper.lab4.setTypeMapping.User
+2022-03-04 15:56:04.278 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 15:56:04.685 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 15:56:04.821 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 15:56:04.825 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 15:56:04.826 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 15:56:04.826 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 15:56:04.828 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 15:56:05.131 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 15:56:05.812 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 15:56:06.004 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 15:56:06.081 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 15:57:20.250 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 15:57:20.642 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 15:57:20.785 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 15:57:20.790 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 15:57:20.790 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 15:57:20.791 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 15:57:20.793 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 15:57:21.091 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 15:57:21.787 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 15:57:21.927 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 15:57:21.997 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:09:42.292 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:09:44.663 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:09:45.405 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:09:45.429 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:09:45.430 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:09:45.431 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:09:45.447 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:09:47.705 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:09:52.747 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:09:53.426 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:09:54.403 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:20:18.535 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:20:18.948 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:20:19.087 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:20:19.092 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:20:19.092 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:20:19.092 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:20:19.095 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:20:19.402 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:20:20.085 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:20:20.228 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:20:20.298 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:20:20.299 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:20:20.314 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 16:20:32.440 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:20:32.814 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:20:32.946 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:20:32.950 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:20:32.950 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:20:32.950 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:20:32.953 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:20:33.244 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:20:33.938 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:20:34.064 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:20:34.134 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:20:34.135 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:20:34.146 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 16:21:13.813 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:21:14.203 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:21:14.340 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:21:14.345 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:21:14.346 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:21:14.346 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:21:14.349 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:21:14.669 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:21:15.323 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:21:15.446 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:21:15.514 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:21:15.515 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:21:15.525 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 16:21:54.002 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:21:54.462 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:21:54.613 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:21:54.619 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:21:54.620 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:21:54.620 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:21:54.623 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:21:54.957 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:21:55.699 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:21:55.840 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:21:55.910 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:21:55.911 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:43:53.622 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 16:43:56.670 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:43:57.102 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:43:57.245 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:43:57.250 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:43:57.251 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:43:57.251 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:43:57.253 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:43:57.611 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:43:58.328 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:43:58.486 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:43:58.558 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:50:05.907 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:50:06.310 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:50:06.457 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:50:06.463 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:50:06.464 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:50:06.464 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:50:06.467 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:50:06.835 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:50:07.609 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:50:07.762 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:50:07.851 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-03-04 16:50:07.852 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:50:07.868 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-03-04 16:50:20.951 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:50:21.025 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-03-04 16:50:21.026 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:50:21.037 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-03-04 16:50:32.289 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:50:32.679 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:50:32.826 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:50:32.832 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:50:32.833 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:50:32.833 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:50:32.835 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:50:33.193 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:50:33.892 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:50:34.026 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:50:34.090 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-03-04 16:50:34.091 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:50:34.098 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-03-04 16:51:10.406 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:51:10.425 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-03-04 16:51:10.426 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:51:10.431 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-03-04 16:53:15.528 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:53:15.953 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:53:16.102 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:53:16.107 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:53:16.108 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:53:16.108 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:53:16.110 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:53:16.444 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:53:17.162 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:53:17.296 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:53:17.368 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:53:32.641 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:53:33.029 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:53:33.178 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:53:33.185 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:53:33.185 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:53:33.186 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:53:33.189 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:53:33.560 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:53:34.274 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:53:34.409 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:53:34.475 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-03-04 16:53:34.476 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 16:53:34.482 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - file was insert successfully
+2022-03-04 16:59:49.149 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:59:49.173 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 16:59:52.188 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 16:59:52.603 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 16:59:52.740 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 16:59:52.745 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 16:59:52.745 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 16:59:52.746 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 16:59:52.748 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 16:59:53.047 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 16:59:53.696 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 16:59:53.818 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:59:53.883 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 16:59:53.884 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 16:59:53.897 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:00:13.059 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:00:13.403 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:00:13.532 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:00:13.536 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:00:13.537 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:00:13.537 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:00:13.539 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:00:13.841 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:00:14.505 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:00:14.632 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:14.703 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:00:14.704 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:14.717 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:00:30.731 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:00:31.110 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:00:31.239 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:00:31.243 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:00:31.244 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:00:31.244 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:00:31.246 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:00:31.506 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:00:32.166 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:00:32.286 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:32.362 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:00:32.362 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:32.377 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:00:37.385 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:00:37.821 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:00:37.967 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:00:37.973 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:00:37.974 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:00:37.974 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:00:37.976 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:00:38.392 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:00:39.126 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:00:39.259 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:39.328 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:00:44.955 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:44.972 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:00:50.475 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:00:50.888 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:00:51.025 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:00:51.047 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:00:51.048 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:00:51.048 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:00:51.050 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:00:51.426 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:00:52.170 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:00:52.315 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:52.389 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:00:53.763 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:00:53.849 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:02:26.218 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 17:02:26.238 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - object was read
+2022-03-04 17:02:26.239 [main] INFO  ru.sfedu.autoHelper.lab3.HibernateDataProvider - session is opened
+2022-03-04 17:03:40.259 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:03:40.714 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:03:40.879 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:03:40.886 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:03:40.887 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:03:40.887 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:03:40.891 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:03:41.320 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:03:42.042 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:03:42.235 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:03:42.337 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:03:56.160 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:03:56.243 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:04:53.755 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:04:54.156 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:04:54.309 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:04:54.315 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:04:54.316 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:04:54.316 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:04:54.319 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:04:54.685 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:04:55.401 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:04:55.537 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:04:55.610 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:05:00.370 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:06:07.436 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:06:10.555 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:06:11.002 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:06:11.146 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:06:11.151 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:06:11.151 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:06:11.151 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:06:11.155 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:06:11.533 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:06:12.267 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:06:12.402 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:06:12.479 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:06:13.827 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:06:14.412 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:22:55.792 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:22:56.202 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:22:56.338 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:22:56.342 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:22:56.343 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:22:56.343 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:22:56.345 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:22:56.663 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:22:57.330 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:22:57.457 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:22:57.525 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:22:57.525 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:22:57.535 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:23:23.325 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:23:23.725 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:23:23.859 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:23:23.863 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:23:23.863 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:23:23.863 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:23:23.866 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:23:24.160 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:23:24.861 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:23:24.982 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:23:25.054 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:23:25.055 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:23:25.068 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:23:32.358 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:23:32.724 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:23:32.853 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:23:32.858 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:23:32.858 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:23:32.859 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:23:32.861 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:23:33.152 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:23:33.830 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:23:33.964 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:23:34.035 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:23:34.036 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:23:34.045 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:23:49.616 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:23:50.002 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:23:50.133 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:23:50.138 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:23:50.138 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:23:50.138 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:23:50.140 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:23:50.428 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:23:51.116 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:23:51.240 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:23:51.304 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:23:51.305 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:23:51.318 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:28:39.114 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:28:39.530 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:28:39.667 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:28:39.672 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:28:39.672 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:28:39.672 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:28:39.675 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:28:39.975 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:28:40.646 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:28:40.769 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:28:40.786 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 17:28:40.805 [main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+2022-03-04 17:28:40.807 [main] ERROR ru.sfedu.autoHelper.lab4.HibernateDataProvider - javax.persistence.OptimisticLockException: Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1; statement executed: delete from User where id=?
+2022-03-04 17:29:12.546 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:29:12.960 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:29:13.108 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:29:13.113 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:29:13.114 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:29:13.114 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:29:13.117 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:29:13.533 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:29:14.203 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:29:14.333 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:29:14.346 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 17:30:13.943 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:30:14.379 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:30:14.520 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:30:14.525 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:30:14.525 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:30:14.525 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:30:14.528 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:30:14.850 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:30:15.549 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:30:15.671 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:30:15.675 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 17:30:15.678 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 17:48:24.605 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:48:25.062 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:48:25.212 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:48:25.217 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:48:25.217 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:48:25.217 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:48:25.220 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:48:25.616 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:48:26.399 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:48:26.536 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:48:26.602 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:48:28.674 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:48:28.759 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:48:48.392 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:48:48.856 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:48:49.009 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:48:49.015 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:48:49.015 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:48:49.015 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:48:49.019 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:48:49.385 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:48:50.146 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:48:50.284 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:48:50.363 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:48:52.919 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:48:53.002 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:49:25.276 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:49:25.671 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:49:25.832 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:49:25.837 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:49:25.837 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:49:25.838 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:49:25.840 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:49:26.160 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:49:26.856 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:49:26.983 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:49:27.051 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:49:27.053 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:49:27.060 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 17:50:15.863 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:50:16.370 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:50:16.508 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:50:16.513 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:50:16.513 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:50:16.514 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:50:16.517 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:50:16.867 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:50:17.657 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:50:17.785 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:50:17.852 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:50:17.854 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:50:17.862 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 17:50:38.630 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:50:39.025 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:50:39.174 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:50:39.180 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:50:39.180 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:50:39.180 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:50:39.184 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:50:39.609 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:50:40.305 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:50:40.438 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:50:40.508 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:50:40.510 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:50:40.518 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 17:53:08.632 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:53:09.071 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:53:09.215 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:53:09.221 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:53:09.221 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:53:09.221 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:53:09.224 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:53:09.596 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:53:10.322 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:53:10.468 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:53:10.542 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:53:19.359 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:53:19.398 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 17:54:22.194 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:54:22.583 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:54:22.719 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:54:22.724 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:54:22.724 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:54:22.725 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:54:22.727 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:54:23.047 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:54:23.914 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:54:24.042 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:54:24.114 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:54:24.115 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:54:24.125 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 17:54:42.203 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:54:42.637 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:54:42.786 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:54:42.791 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:54:42.792 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:54:42.792 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:54:42.794 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:54:43.176 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:54:43.967 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:54:44.159 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:54:44.240 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:54:48.228 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:54:48.266 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 17:54:56.399 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:54:56.841 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:54:56.986 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:54:56.993 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:54:56.993 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:54:56.993 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:54:56.996 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:54:57.453 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:54:58.259 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:54:58.404 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:54:58.481 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:55:00.265 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:55:00.354 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:57:02.593 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:57:03.019 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:57:03.153 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:57:03.176 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:57:03.176 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:57:03.176 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:57:03.179 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:57:03.551 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:57:04.388 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:57:04.566 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:04.641 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:57:06.121 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:06.123 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:06.203 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:57:18.922 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:57:19.287 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:57:19.423 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:57:19.429 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:57:19.429 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:57:19.429 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:57:19.432 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:57:19.780 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:57:20.536 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:57:20.657 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:20.723 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:57:20.724 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:20.724 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:20.739 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:57:39.392 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:57:39.837 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:57:39.987 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:57:39.992 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:57:39.992 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:57:39.992 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:57:39.995 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:57:40.356 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:57:41.079 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1eb85a47] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:57:41.215 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:41.282 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:57:43.784 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:43.785 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:57:43.870 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:59:28.960 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:59:29.379 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:59:29.525 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:59:29.529 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:59:29.530 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:59:29.530 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:59:29.532 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:59:29.825 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:59:30.488 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:59:30.613 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:59:30.677 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:59:30.678 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:59:30.679 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:59:30.688 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 17:59:35.120 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 17:59:35.521 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 17:59:35.662 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 17:59:35.666 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 17:59:35.666 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 17:59:35.666 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 17:59:35.669 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 17:59:35.979 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 17:59:36.649 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 17:59:36.780 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:59:36.846 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 17:59:36.847 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:59:36.848 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 17:59:36.861 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 18:00:01.898 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:00:02.288 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:00:02.421 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:00:02.425 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:00:02.425 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:00:02.425 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:00:02.427 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:00:02.693 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:00:03.378 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@477523ba] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:00:03.500 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:03.572 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:00:07.373 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:00:07.778 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:00:07.913 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:00:07.917 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:00:07.918 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:00:07.918 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:00:07.920 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:00:08.242 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:00:08.920 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3079c26a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:00:09.045 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.050 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 18:00:09.053 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 18:00:09.057 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.128 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:00:09.129 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.130 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.144 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 18:00:09.145 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.151 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:00:09.152 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.160 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 18:00:09.161 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:09.167 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:00:43.084 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:00:43.487 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:00:43.627 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:00:43.632 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:00:43.633 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:00:43.633 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:00:43.635 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:00:43.949 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:00:44.623 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3079c26a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:00:44.740 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.744 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 18:00:44.748 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 18:00:44.751 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.811 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:00:44.812 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.813 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.827 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 18:00:44.828 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.835 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:00:44.836 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.843 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 18:00:44.844 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:00:44.849 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:46:21.421 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:46:21.842 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:46:21.979 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:46:21.984 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:46:21.984 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:46:21.985 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:46:21.987 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:46:22.335 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:46:22.556 [main] ERROR ru.sfedu.autoHelper.lab4.HibernateDataProvider - org.hibernate.DuplicateMappingException: The [ru.sfedu.autoHelper.lab4.setTypeMapping.User] and [ru.sfedu.autoHelper.lab4.listTypeMapping.User] entities share the same JPA entity name: [User] which is not allowed!
+2022-03-04 18:47:19.555 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:47:19.951 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:47:20.081 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:47:20.085 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:47:20.086 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:47:20.086 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:47:20.088 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:47:20.414 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:47:21.117 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19a5b637] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:47:21.291 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:47:21.356 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:48:15.818 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:48:16.218 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:48:16.359 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:48:16.364 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:48:16.365 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:48:16.365 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:48:16.367 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:48:16.680 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:48:17.380 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19a5b637] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:48:17.513 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:48:17.586 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:48:59.050 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:48:59.452 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:48:59.589 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:48:59.593 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:48:59.594 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:48:59.594 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:48:59.596 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:48:59.906 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:49:00.616 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@578c3fd9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:49:00.824 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.833 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 18:49:00.836 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 18:49:00.840 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.896 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:49:00.897 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.897 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.911 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 18:49:00.912 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.920 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:49:00.921 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.929 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 18:49:00.931 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:49:00.938 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:54:02.767 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:54:03.176 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:54:03.321 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:54:03.326 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:54:03.326 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:54:03.326 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:54:03.329 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:54:03.630 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:54:04.323 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@578c3fd9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:54:04.536 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.540 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 18:54:04.544 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 18:54:04.547 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.613 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:54:04.614 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.615 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.629 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 18:54:04.630 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.638 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:54:04.639 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.646 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 18:54:04.647 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:54:04.653 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:59:51.031 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 18:59:51.432 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 18:59:51.561 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 18:59:51.566 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 18:59:51.566 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 18:59:51.566 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 18:59:51.569 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 18:59:51.856 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 18:59:52.600 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@578c3fd9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 18:59:52.767 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.772 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 18:59:52.775 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 18:59:52.779 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.837 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:59:52.838 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.839 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.852 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 18:59:52.854 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.861 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 18:59:52.862 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.870 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 18:59:52.871 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 18:59:52.877 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 19:07:18.189 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 19:07:18.575 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 19:07:18.711 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 19:07:18.716 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 19:07:18.716 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 19:07:18.716 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 19:07:18.719 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 19:07:19.014 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 19:07:19.694 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@578c3fd9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 19:07:19.830 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.834 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 19:07:19.838 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 19:07:19.841 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.905 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 19:07:19.906 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.908 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.921 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 19:07:19.922 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.929 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 19:07:19.929 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.937 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 19:07:19.938 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:07:19.945 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 19:07:59.646 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-04 19:08:00.011 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-04 19:08:00.146 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-03-04 19:08:00.151 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/panchenko]
+2022-03-04 19:08:00.151 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-03-04 19:08:00.151 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-03-04 19:08:00.154 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-03-04 19:08:00.431 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-03-04 19:08:01.106 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@578c3fd9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-03-04 19:08:01.232 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.237 [main] INFO  org.hibernate.event.internal.DefaultDeleteEventListener - HHH000114: Handling transient entity in delete processing
+2022-03-04 19:08:01.240 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was deleted
+2022-03-04 19:08:01.244 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.307 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 19:08:01.308 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.309 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.322 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was read
+2022-03-04 19:08:01.323 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.330 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully
+2022-03-04 19:08:01.331 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.338 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - object was updated
+2022-03-04 19:08:01.339 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - session is opened
+2022-03-04 19:08:01.346 [main] INFO  ru.sfedu.autoHelper.lab4.HibernateDataProvider - file was insert successfully

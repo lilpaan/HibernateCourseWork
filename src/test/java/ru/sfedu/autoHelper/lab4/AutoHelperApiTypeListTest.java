@@ -2,11 +2,9 @@ package ru.sfedu.autoHelper.lab4;
 
 import org.junit.Test;
 import ru.sfedu.autoHelper.ConstantsValues;
-import ru.sfedu.autoHelper.lab4.setTypeMapping.User;
+import ru.sfedu.autoHelper.lab4.listTypeMapping.User;
 
-import java.util.HashSet;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -14,8 +12,8 @@ public class AutoHelperApiTypeListTest {
     IHibernateDataProvider dataProviderHibernate = new HibernateDataProvider();
     User user = new User();
     User newUser = new User();
-    Set<String> infoCards;
-    Set<String> newInfoCards;
+    List<String> infoCards;
+    List<String> newInfoCards;
     boolean success;
 
     /**
@@ -25,7 +23,7 @@ public class AutoHelperApiTypeListTest {
     @Test
     public void createPositive() {
         Optional<Object> optional;
-        infoCards = new HashSet<>();
+        infoCards = new ArrayList<>();
         infoCards.add(ConstantsValues.USER_INFO_CARD_FIRST);
         infoCards.add(ConstantsValues.USER_INFO_CARD_SECOND);
         infoCards.add(ConstantsValues.USER_INFO_CARD_THIRD);
@@ -41,7 +39,7 @@ public class AutoHelperApiTypeListTest {
     @Test
     public void readByIdPositive() {
         Optional<User> optional;
-        infoCards = new HashSet<>();
+        infoCards = new ArrayList<>();
         infoCards.add(ConstantsValues.USER_INFO_CARD_FIRST);
         infoCards.add(ConstantsValues.USER_INFO_CARD_SECOND);
         infoCards.add(ConstantsValues.USER_INFO_CARD_THIRD);
@@ -62,8 +60,8 @@ public class AutoHelperApiTypeListTest {
     @Test
     public void updatePositive() {
         Optional<User> optional;
-        infoCards = new HashSet<>();
-        newInfoCards = new HashSet<>();
+        infoCards = new ArrayList<>();
+        newInfoCards = new ArrayList<>();
         // create values before update
         infoCards.add(ConstantsValues.USER_INFO_CARD_FIRST);
         infoCards.add(ConstantsValues.USER_INFO_CARD_SECOND);
@@ -90,7 +88,7 @@ public class AutoHelperApiTypeListTest {
      */
     @Test
     public void deletePositive() {
-        infoCards = new HashSet<>();
+        infoCards = new ArrayList<>();
         infoCards.add(ConstantsValues.USER_INFO_CARD_FIRST);
         infoCards.add(ConstantsValues.USER_INFO_CARD_SECOND);
         infoCards.add(ConstantsValues.USER_INFO_CARD_THIRD);

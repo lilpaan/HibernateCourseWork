@@ -41,13 +41,20 @@ public class ConstantsValues {
     public static final String COLUMN_TEST_ENTITY_CHECK = "test_entity_check";
     public static final String TEST_ENTITY = "TestEntity";
 
-    // lab 4 constants for adding in collections;
+    // lab 4 constants;
     public static final String USER_INFO_CARD_FIRST = "userInfoCardFirst";
     public static final String USER_INFO_CARD_SECOND = "userInfoCardSecond";
     public static final String USER_INFO_CARD_THIRD = "userInfoCardThird";
     public static final String USER_INFO_CARD_FIRST_NEW = "userInfoCardFirstNEW";
     public static final String USER_INFO_CARD_SECOND_NEW = "userInfoCardSecondNEW";
     public static final String USER_INFO_CARD_THIRD_NEW = "userInfoCardThirdNEW";
+    public static final String INFO_CARD_LIST = "info_card_list";
+    public static final String INFO_CARDS = "info_cards";
+    public static final String USER_SET_TYPE = "user_set_type";
+    public static final String USER_LIST_TYPE = "user_list_type";
+    public static final String USER_MAP_COMPONENT_TYPE = "user_map_component_type";
+    public static final String USER_MAP_TYPE = "user_map_type";
+    public static final String USER_COMPONENT_TYPE = "user_component_type";
 
     // constants uses in lab3
     public static final String INFO_CARD_ID = "info_card_id";
