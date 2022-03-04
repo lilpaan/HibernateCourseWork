@@ -36,7 +36,7 @@ public class AutoHelperApiTypeComponentMapTest {
         infoCards.put(ConstantsValues.USER_INFO_CARD_FIRST, infoCardFirst);
         infoCards.put(ConstantsValues.USER_INFO_CARD_SECOND, infoCardSecond);
         infoCards.put(ConstantsValues.USER_INFO_CARD_THIRD, infoCardThird);
-        user.setChildClasses(infoCards);
+        user.setInfoCards(infoCards);
         optional = dataProviderHibernate.create(user);
         assertNotEquals(Optional.empty(), optional);
     }
@@ -52,7 +52,7 @@ public class AutoHelperApiTypeComponentMapTest {
         infoCards.put(ConstantsValues.USER_INFO_CARD_FIRST, infoCardFirst);
         infoCards.put(ConstantsValues.USER_INFO_CARD_SECOND, infoCardSecond);
         infoCards.put(ConstantsValues.USER_INFO_CARD_THIRD, infoCardThird);
-        user.setChildClasses(infoCards);
+        user.setInfoCards(infoCards);
         optional = dataProviderHibernate.create(user);
         if (optional.isPresent()) {
             Optional<User> optionalUser = dataProviderHibernate.readById(User.class, optional.get().getId());
@@ -76,13 +76,13 @@ public class AutoHelperApiTypeComponentMapTest {
         infoCards.put(ConstantsValues.USER_INFO_CARD_SECOND, infoCardSecond);
         infoCards.put(ConstantsValues.USER_INFO_CARD_THIRD, infoCardThird);
         // create user which will be updated
-        user.setChildClasses(infoCards);
+        user.setInfoCards(infoCards);
         optional = dataProviderHibernate.create(user);
         // prepare values for update
         newInfoCards.put(ConstantsValues.USER_INFO_CARD_FIRST_NEW, infoCardFirstNew);
         newInfoCards.put(ConstantsValues.USER_INFO_CARD_SECOND_NEW, infoCardSecondNew);
         newInfoCards.put(ConstantsValues.USER_INFO_CARD_THIRD_NEW, infoCardThirdNew);
-        newUser.setChildClasses(newInfoCards);
+        newUser.setInfoCards(newInfoCards);
         // updating
         if (optional.isPresent()) {
             newUser.setId(optional.get().getId());
@@ -101,7 +101,7 @@ public class AutoHelperApiTypeComponentMapTest {
         infoCards.put(ConstantsValues.USER_INFO_CARD_FIRST, infoCardFirst);
         infoCards.put(ConstantsValues.USER_INFO_CARD_SECOND, infoCardSecond);
         infoCards.put(ConstantsValues.USER_INFO_CARD_THIRD, infoCardThird);
-        user.setChildClasses(infoCards);
+        user.setInfoCards(infoCards);
         dataProviderHibernate.delete(user);
         // Для удаления по кокретному id
 /*            user = new User(254L);

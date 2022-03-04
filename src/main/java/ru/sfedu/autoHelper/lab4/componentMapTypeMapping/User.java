@@ -5,6 +5,7 @@ import ru.sfedu.autoHelper.ConstantsValues;
 import javax.persistence.*;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 @Entity(name = ConstantsValues.USER_MAP_COMPONENT_TYPE)
 public class User {
@@ -14,7 +15,12 @@ public class User {
     @ElementCollection
     @CollectionTable(name = ConstantsValues.INFO_CARD_MAP_COMPONENT)
     @MapKeyColumn(name = ConstantsValues.INFO_CARDS)
-    protected Map<String, InfoCard> childClasses = new HashMap<String, InfoCard>();
+    protected Map<String, InfoCard> infoCards = new HashMap<>();
+
+    public User(Long id, Map<String, InfoCard> infoCards) {
+        this.id = id;
+        this.infoCards = infoCards;
+    }
 
     public User() {
     }
@@ -31,11 +37,33 @@ public class User {
         this.id = id;
     }
 
-    public Map<String, InfoCard> getChildClasses() {
-        return childClasses;
+    public Map<String, InfoCard> getInfoCards() {
+        return infoCards;
     }
 
-    public void setChildClasses(Map<String, InfoCard> childClasses) {
-        this.childClasses = childClasses;
+    public void setInfoCards(Map<String, InfoCard> infoCards) {
+        this.infoCards = infoCards;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return Objects.equals(id, user.id) && Objects.equals(infoCards, user.infoCards);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, infoCards);
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", infoCards=" + infoCards +
+                '}';
+    }
+
 }
