@@ -57,6 +57,7 @@ public class ConstantsValues {
     public static final String INFO_CARD_LIST = "info_card_list";
     public static final String INFO_CARD_KEY_COLUMN = "info_card_key";
     public static final String INFO_CARD_MAP = "info_card_map";
+    public static final String INFO_CARD_MAP_COMPONENT = "info_card_map_component";
     public static final String INFO_CARDS = "info_cards";
     public static final String USER_SET_TYPE = "user_set_type";
     public static final String USER_LIST_TYPE = "user_list_type";
@@ -287,6 +288,5 @@ public class ConstantsValues {
 
     // hello world for different debug situations
     public static final String HELLO_WORLD = "Hello world!";
-
 
 }

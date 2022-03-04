@@ -11,8 +11,8 @@ import ru.sfedu.autoHelper.ConstantsValues;
 import ru.sfedu.autoHelper.lab2.TestEntity;
 import ru.sfedu.autoHelper.lab3.mappedSuperclass.BusinessCard;
 import ru.sfedu.autoHelper.lab3.mappedSuperclass.DiscountCard;
-import ru.sfedu.autoHelper.lab3.mappedSuperclass.InfoCard;
-import ru.sfedu.autoHelper.lab4.setTypeMapping.User;
+import ru.sfedu.autoHelper.lab4.componentMapTypeMapping.InfoCard;
+import ru.sfedu.autoHelper.lab4.componentMapTypeMapping.User;
 
 import java.io.File;
 
@@ -44,7 +44,7 @@ public class HibernateUtil {
             // аннотированная сущность для лабораторной работы 2
             metadataSources.addAnnotatedClass(TestEntity.class);
             // аннотированные сущности для лабораторной работы 3. стратегия Mapped Superclass
-            metadataSources.addAnnotatedClass(InfoCard.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.mappedSuperclass.InfoCard.class);
             metadataSources.addAnnotatedClass(BusinessCard.class);
             metadataSources.addAnnotatedClass(DiscountCard.class);
             // аннотированные сущности для лабораторной работы 3. стратегия Single Table
@@ -60,11 +60,12 @@ public class HibernateUtil {
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.BusinessCard.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab3.tablePerClass.DiscountCard.class);
             // аннотированные сущности для лабораторной работы 4. отображение коллекции типа Set
-            metadataSources.addAnnotatedClass(User.class);
+            metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.setTypeMapping.User.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.listTypeMapping.User.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.mapTypeMapping.User.class);
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.componentTypeMapping.User.class);
-            //metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.mapComponentTypeMapping.User.class);
+            metadataSources.addAnnotatedClass(User.class);
+            metadataSources.addAnnotatedClass(InfoCard.class);
 
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }
