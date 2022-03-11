@@ -37,8 +37,9 @@ public class ConstantsValues {
     public static final String SQL_SELECT_ALL_DATA_FROM_TEST_ENTITY = "FROM TestEntity";
 
     // sql-queries to lab 5
-    public static final String GET_CAR_BY_ID = "SELECT * FROM car WHERE id = ";
+    public static final String GET_CAR_BY_ID = "SELECT * FROM car_lab5 WHERE id = ";
     public static final String SQL_SELECT_ALL_DATA_FROM_CAR = "FROM car_lab5";
+    public static final String SQL_SELECT_STAR_FROM_CAR = "SELECT * FROM car_lab5";
 
 
     // Constants-names of columns or tables; for mapping too
@@ -302,5 +303,6 @@ public class ConstantsValues {
 
     // hello world for different debug situations
     public static final String HELLO_WORLD = "Hello world!";
+    public static final String UNCHECKED = "unchecked";
 
 }

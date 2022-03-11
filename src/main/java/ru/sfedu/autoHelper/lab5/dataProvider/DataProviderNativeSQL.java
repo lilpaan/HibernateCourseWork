@@ -20,21 +20,28 @@ public class DataProviderNativeSQL implements IHibernateDataProvider{
     }
 
     @Override
+    @SuppressWarnings(ConstantsValues.UNCHECKED)
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
-        Object result = null;
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
             NativeQuery<Car> query = session.createNativeQuery(ConstantsValues.GET_CAR_BY_ID + id, Car.class);
+            return (Optional<T>) Optional.ofNullable(query.getSingleResult());
         } catch (Exception e) {
             logger.error(e);
             return Optional.empty();
         }
-//        return Optional.of(result);
-return null;
     }
 
     @Override
     public Optional<List<Car>> readAll() {
-        return Optional.empty();
+        List<Car> carList;
+        try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            NativeQuery<Car> query = session.createNativeQuery(ConstantsValues.SQL_SELECT_STAR_FROM_CAR, Car.class);
+            carList = query.getResultList();
+            return Optional.of(carList);
+        } catch (Exception e) {
+            logger.error(e);
+            return Optional.empty();
+        }
     }
 
     @Override

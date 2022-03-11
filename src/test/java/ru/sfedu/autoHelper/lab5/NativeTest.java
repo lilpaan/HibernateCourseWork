@@ -3,6 +3,7 @@ package ru.sfedu.autoHelper.lab5;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
+import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderHQL;
 import ru.sfedu.autoHelper.lab5.dataProvider.IHibernateDataProvider;
 import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderNativeSQL;
 import ru.sfedu.autoHelper.lab5.entity.Car;
@@ -20,6 +21,7 @@ import static org.junit.Assert.fail;
 public class NativeTest {
     private static final Logger logger = LogManager.getLogger(NativeTest.class);
     IHibernateDataProvider dataProviderNativeSQL = new DataProviderNativeSQL();
+    IHibernateDataProvider dataProviderHQL = new DataProviderHQL();
     Car car;
     Car newCar;
     boolean success;
@@ -36,13 +38,13 @@ public class NativeTest {
         } else {
             fail();
         }
-        optionalCar = dataProviderNativeSQL.create(car);
+        optionalCar = dataProviderHQL.create(car);
         if(optionalCar.isPresent()) {
             optionalCar = dataProviderNativeSQL.readById(Car.class, optionalCar.get().getId());
-            assertNotEquals( Optional.empty(), optionalCar);
         } else {
             fail();
         }
+        assertNotEquals( Optional.empty(), optionalCar);
     }
 
     /**
