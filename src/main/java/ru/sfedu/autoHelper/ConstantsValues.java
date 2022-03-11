@@ -8,6 +8,7 @@ public class ConstantsValues {
     public static final String LAB2_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab2/lab2.hbn_cfg.xml";
     public static final String LAB3_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab3/lab3.hbn_cfg.xml";
     public static final String LAB4_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab4/lab4.hbn_cfg.xml";
+    public static final String LAB5_HBN_CFG = "src/main/java/ru/sfedu/autoHelper/lab5/lab5.hbn_cfg.xml";
 
     // log messages
     public static final String SESSION_IS_OPENED = "session is opened";
@@ -33,13 +34,25 @@ public class ConstantsValues {
     public static final String GET_DATA_TYPES = "SELECT table_type FROM information_schema.tables;";
 
     // sql-queries to lab 2
-    public static final String SQL_SELECT_ALL_DATA = "FROM TestEntity";
+    public static final String SQL_SELECT_ALL_DATA_FROM_TEST_ENTITY = "FROM TestEntity";
+    public static final String SQL_SELECT_ALL_DATA_FROM_CAR = "FROM car";
 
-    // Constants-names of columns or tables
+    // sql-queries to lab 5
+    public static final String GET_CAR_BY_ID = "SELECT * FROM car WHERE id = ";
+
+    // Constants-names of columns or tables; for mapping too
     public static final String COLUMN_TEST_ENTITY_ID = "test_entity_id";
     public static final String COLUMN_TEST_ENTITY_NAME = "test_entity_name";
     public static final String COLUMN_TEST_ENTITY_CHECK = "test_entity_check";
     public static final String TEST_ENTITY = "TestEntity";
+    public static final String CAR_ID_TITLE = "car_id";
+    public static final String SPARE_PART_TABLE_LAB5 = "spare_part_lab5";
+    public static final String CAR_TABLE_LAB5 = "car_lab5";
+    public static final String USER_TABLE_LAB5 = "user_lab5";
+    public static final String CAR_PROPERTIES_TABLE_LAB5 = "car_properties_lab5";
+    public static final String INFO_CARD_TABLE_LAB5 = "info_card_lab5";
+    public static final String INFO_CARD_USER = "info_card_user";
+    public static final String USER_ID = "user_id";
 
     // lab 4 constants;
     public static final String USER_INFO_CARD_FIRST = "userInfoCardFirst";

@@ -13,6 +13,9 @@ import ru.sfedu.autoHelper.lab3.mappedSuperclass.BusinessCard;
 import ru.sfedu.autoHelper.lab3.mappedSuperclass.DiscountCard;
 import ru.sfedu.autoHelper.lab4.componentMapTypeMapping.InfoCard;
 import ru.sfedu.autoHelper.lab4.componentMapTypeMapping.User;
+import ru.sfedu.autoHelper.lab5.entity.Car;
+import ru.sfedu.autoHelper.lab5.entity.CarProperties;
+import ru.sfedu.autoHelper.lab5.entity.SparePart;
 
 import java.io.File;
 
@@ -66,6 +69,10 @@ public class HibernateUtil {
             metadataSources.addAnnotatedClass(ru.sfedu.autoHelper.lab4.componentTypeMapping.User.class);
             metadataSources.addAnnotatedClass(User.class);
             metadataSources.addAnnotatedClass(InfoCard.class);
+            // аннотированные сущности для лабораторной работы 5
+            metadataSources.addAnnotatedClass(Car.class);
+            metadataSources.addAnnotatedClass(CarProperties.class);
+            metadataSources.addAnnotatedClass(SparePart.class);
 
             sessionFactory = metadataSources.buildMetadata().buildSessionFactory();
         }
