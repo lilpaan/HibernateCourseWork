@@ -18,6 +18,7 @@ public class CarProperties {
     String currentOilBrand;
     String wheelsType;
     String insuranceRunOutDate;
+
     public CarProperties() {
     }
 
@@ -34,6 +35,10 @@ public class CarProperties {
         this.currentOilBrand = currentOilBrand;
         this.wheelsType = wheelsType;
         this.insuranceRunOutDate = insuranceRunOutDate;
+    }
+
+    public CarProperties(Long id) {
+        this.id = id;
     }
 
     public Long getId() {

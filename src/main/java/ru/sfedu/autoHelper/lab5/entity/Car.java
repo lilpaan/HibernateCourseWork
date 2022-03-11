@@ -57,6 +57,18 @@ public class Car {
         this.carProperties = carProperties;
     }
 
+    public Car(Long id) {
+        this.id = id;
+    }
+
+    public Car(String model, String maker, float engineVolume, String color, int productionYear) {
+        this.model = model;
+        this.maker = maker;
+        this.engineVolume = engineVolume;
+        this.color = color;
+        this.productionYear = productionYear;
+    }
+
     public Long getId() {
         return id;
     }

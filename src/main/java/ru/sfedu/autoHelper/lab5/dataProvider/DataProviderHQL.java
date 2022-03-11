@@ -11,8 +11,8 @@ import ru.sfedu.autoHelper.util.HibernateUtil;
 import java.util.List;
 import java.util.Optional;
 
-public class dataProviderHQL implements IHibernateDataProvider {
-    private static final Logger logger = LogManager.getLogger(dataProviderHQL.class);
+public class DataProviderHQL implements IHibernateDataProvider {
+    private static final Logger logger = LogManager.getLogger(DataProviderHQL.class);
 
     @Override
     public <T> Optional<T> create(T object) {

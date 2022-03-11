@@ -11,8 +11,8 @@ import ru.sfedu.autoHelper.util.HibernateUtil;
 import java.util.List;
 import java.util.Optional;
 
-public class dataProviderNativeSQL implements IHibernateDataProvider{
-    private static final Logger logger = LogManager.getLogger(dataProviderNativeSQL.class);
+public class DataProviderNativeSQL implements IHibernateDataProvider{
+    private static final Logger logger = LogManager.getLogger(DataProviderNativeSQL.class);
     @Override
     public <T> Optional<T> create(T object) {
         //Object result = HibernateUtil.doQuery(ConstantsValues.LAB5_HBN_CFG, ConstantsValues.GET_DATABASE_SIZE);

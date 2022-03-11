@@ -35,10 +35,11 @@ public class ConstantsValues {
 
     // sql-queries to lab 2
     public static final String SQL_SELECT_ALL_DATA_FROM_TEST_ENTITY = "FROM TestEntity";
-    public static final String SQL_SELECT_ALL_DATA_FROM_CAR = "FROM car";
 
     // sql-queries to lab 5
     public static final String GET_CAR_BY_ID = "SELECT * FROM car WHERE id = ";
+    public static final String SQL_SELECT_ALL_DATA_FROM_CAR = "FROM car_lab5";
+
 
     // Constants-names of columns or tables; for mapping too
     public static final String COLUMN_TEST_ENTITY_ID = "test_entity_id";

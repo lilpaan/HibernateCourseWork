@@ -3,28 +3,28 @@ package ru.sfedu.autoHelper.lab5;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
+import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderHQL;
 import ru.sfedu.autoHelper.lab5.dataProvider.IHibernateDataProvider;
-import ru.sfedu.autoHelper.lab5.dataProvider.dataProviderHQL;
 import ru.sfedu.autoHelper.lab5.entity.Car;
 import ru.sfedu.autoHelper.lab5.entity.CarProperties;
 import ru.sfedu.autoHelper.lab5.entity.SparePart;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.fail;
+import static org.junit.Assert.*;
 
 /**
  * Класс для исполнения тестов с HQL провайдером данных
  */
 public class HQLTest {
     private static final Logger logger = LogManager.getLogger(HQLTest.class);
-    IHibernateDataProvider dataProviderHQL = new dataProviderHQL();
+    IHibernateDataProvider dataProviderHQL = new DataProviderHQL();
     Car car;
+    Car newCar;
     boolean success;
-
 
     /**
      * добавление объекта
@@ -33,10 +33,10 @@ public class HQLTest {
     @Test
     public void createPositive() {
         Optional<Car> optionalCar;
-        try {
-            car = initCar();
-        } catch (Exception e) {
-            logger.error(e);
+        if (initCar().isPresent()) {
+            car = initCar().get();
+        } else {
+            fail();
         }
         optionalCar = dataProviderHQL.create(car);
         assertNotEquals(Optional.empty(), optionalCar);
@@ -48,8 +48,13 @@ public class HQLTest {
      */
     @Test
     public void readByIdPositive() {
-
-        Optional<Car> optionalCar = dataProviderHQL.create(car);
+        Optional<Car> optionalCar;
+        if (initCar().isPresent()) {
+            car = initCar().get();
+        } else {
+            fail();
+        }
+        optionalCar = dataProviderHQL.create(car);
         if(optionalCar.isPresent()) {
             optionalCar = dataProviderHQL.readById(Car.class, optionalCar.get().getId());
             assertNotEquals( Optional.empty(), optionalCar);
@@ -59,31 +64,35 @@ public class HQLTest {
     }
 
     /**
+     * Получение всех объектов
+     * тип: позитивный
+     */
+    @Test
+    public void readAllPositive() {
+        Optional<List<Car>> optionalCarList;
+        optionalCarList = dataProviderHQL.readAll();
+        assertNotEquals( Optional.empty(), optionalCarList);
+    }
+
+    /**
      * обновление объекта
      * тип: позитивный
      */
     @Test
     public void updatePositive() {
-        Set<SparePart> spareParts = new HashSet<>();
-        SparePart sparePart1 = new SparePart(1L, "type1", "maker1", "11/11/2021");
-        SparePart sparePart2 = new SparePart(2L, "type2", "maker2", "12/12/2021");
-        CarProperties carProperties = new CarProperties(1L, 10, "LukOil", "Winter", "22/12/2022");
-        spareParts.add(sparePart1);
-        spareParts.add(sparePart2);
-        Car car = new Car(1L, spareParts, "carModel", "carMaker", 11, "carColor", 2011, carProperties);
-/*        Optional<BusinessCard> optionalCar = dataProviderHibernate.create(businessCardForUpdate);
-        Optional<DiscountCard> optionalDiscountCard = dataProviderHibernate.create(discountCardForUpdate);
-        if(optionalCar.isPresent() && optionalDiscountCard.isPresent()) {
-            newBusinessCard.setId(optionalCar.get().getId());
-            newDiscountCard.setId(optionalDiscountCard.get().getId());
-            businessSuccess = dataProviderHibernate.update(newBusinessCard);
-            discountSuccess = dataProviderHibernate.update(newDiscountCard);
-        }
-        else {
+        Optional<Car> optionalCar;
+        if (initCar().isPresent() && initNewCar().isPresent()) {
+            car = initCar().get();
+            newCar = initNewCar().get();
+        } else {
             fail();
         }
-        assertTrue(businessSuccess);
-        assertTrue(discountSuccess);*/
+        optionalCar = dataProviderHQL.create(car);
+        if (optionalCar.isPresent()) {
+            newCar.setId(optionalCar.get().getId());
+            success = dataProviderHQL.update(newCar);
+        }
+        assertTrue(success);
     }
 
     /**
@@ -92,51 +101,86 @@ public class HQLTest {
      */
     @Test
     public void deletePositive() {
-        Set<SparePart> spareParts = new HashSet<>();
-        SparePart sparePart1 = new SparePart(1L, "type1", "maker1", "11/11/2021");
-        SparePart sparePart2 = new SparePart(2L, "type2", "maker2", "12/12/2021");
-        CarProperties carProperties = new CarProperties(1L, 10, "LukOil", "Winter", "22/12/2022");
-        spareParts.add(sparePart1);
-        spareParts.add(sparePart2);
-        Car car = new Car(1L, spareParts, "carModel", "carMaker", 11, "carColor", 2011, carProperties);
-/*        Optional<BusinessCard> optionalCar = dataProviderHibernate.create(businessCardForDelete);
-        Optional<DiscountCard> optionalDiscountCard = dataProviderHibernate.create(discountCardForDelete);
-        if(optionalCar.isPresent() && optionalDiscountCard.isPresent()) {
-            businessSuccess = dataProviderHibernate.delete(new BusinessCard(optionalCar.get().getId()));
-            discountSuccess = dataProviderHibernate.delete(new DiscountCard(optionalDiscountCard.get().getId()));
+        Optional<Car> optionalCar;
+        if (initCar().isPresent()) {
+            car = initCar().get();
         } else {
             fail();
         }
+        optionalCar = dataProviderHQL.create(car);
+        if(optionalCar.isPresent()) {
+            success = dataProviderHQL.delete(optionalCar.get());
+        } else {
+            fail();
+        }
+        assertTrue(success);
         // для удаления по конкретным id
-*//*        businessCard = new BusinessCard(49L);
-        discountCard = new DiscountCard(50L);
-        businessSuccess = dataProviderHibernate.delete(businessCard);
-        discountSuccess = dataProviderHibernate.delete(discountCard);*//*
-        assertTrue(businessSuccess);
-        assertTrue(discountSuccess);
-    }*/
+/*        Optional<Car> optionalCar;
+        optionalCar = dataProviderHQL.readById(Car.class, 338L);
+        if (optionalCar.isPresent()) {
+            success = dataProviderHQL.delete(optionalCar.get());
+        } else {
+            fail();
+        }
+        assertTrue(success);*/
     }
 
-    public Car initCar() {
-        // init objects
-        Car car = new Car();
-        CarProperties carProperties = new CarProperties(10, "LukOil", "Winter",
-                "22/12/2022");
-        Set<SparePart> spareParts = new HashSet<>();
+    /**
+     * Инициализауия экземпляра автомобиля
+     * @return созданный экземпляр
+     */
+    public Optional<Car> initCar() {
+        try {
 
-        // add data to spareParts and set in car
-        SparePart sparePart1 = new SparePart( "type1", "maker1", "11/11/2021");
-        SparePart sparePart2 = new SparePart( "type2", "maker2", "12/12/2021");
-        sparePart1.setCar(car);
-        sparePart2.setCar(car);
-        spareParts.add(sparePart1);
-        spareParts.add(sparePart2);
-        car.setSpareParts(spareParts);
+            car = new Car("carModel", "carMaker", 11, "carColor", 2011);
 
-        // create car object
-        car = new Car("carModel", "carMaker", 11, "carColor", 2011,
-                carProperties);
-        return car;
+            Set<SparePart> spareParts = new HashSet<>();
+            SparePart sparePart1 = new SparePart( "type1", "maker1", "11/11/2021");
+            SparePart sparePart2 = new SparePart( "type2", "maker2", "12/12/2021");
+            sparePart1.setCar(car);
+            sparePart2.setCar(car);
+            spareParts.add(sparePart1);
+            spareParts.add(sparePart2);
+            car.setSpareParts(spareParts);
+
+            CarProperties carProperties = new CarProperties(10, "LukOil", "Winter",
+                    "22/12/2022");
+            car.setCarProperties(carProperties);
+        } catch (Exception e) {
+            logger.error(e);
+            return Optional.empty();
+        }
+        return Optional.of(car);
     }
+
+    /**
+     * Инициализауия экземпляра автомобиля для обновления
+     * @return созданный экземпляр
+     */
+    public Optional<Car> initNewCar() {
+        try {
+
+            newCar = new Car("carModelNEW", "carMakerNEW", 22, "carColorNEW",
+                    2022);
+
+        Set<SparePart> newSpareParts = new HashSet<>();
+        SparePart newSparePart1 = new SparePart( "type1NEW", "maker1NEW", "11/11/2021NEW");
+        SparePart newSparePart2 = new SparePart( "type2NEW", "maker2NEW", "12/12/2021NEW");
+        newSparePart1.setCar(newCar);
+        newSparePart2.setCar(newCar);
+        newSpareParts.add(newSparePart1);
+        newSpareParts.add(newSparePart2);
+        newCar.setSpareParts(newSpareParts);
+
+        CarProperties newCarProperties = new CarProperties(20, "LukOilNEW", "WinterNEW",
+                "22/12/2022NEW");
+        newCar.setCarProperties(newCarProperties);
+        } catch (Exception e) {
+            logger.error(e);
+            return Optional.empty();
+        }
+        return Optional.of(newCar);
+    }
+
 }
 
