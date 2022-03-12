@@ -11,8 +11,8 @@ import ru.sfedu.autoHelper.lab5.entity.Car;
 
 public class TimeTest {
     private static final Logger logger = LogManager.getLogger(TimeTest.class);
-    IHibernateDataProvider dataProviderCriteria = new DataProviderCriteria();
-    IHibernateDataProvider dataProviderNativeSQL = new DataProviderNativeSQL();
+    DataProviderCriteria dataProviderCriteria = new DataProviderCriteria();
+    DataProviderNativeSQL dataProviderNativeSQL = new DataProviderNativeSQL();
     IHibernateDataProvider dataProviderHQL = new DataProviderHQL();
     Car car;
 
@@ -22,9 +22,9 @@ public class TimeTest {
      */
     @Test
     public void readByIdPositive() {
-dataProviderHQL.readById(Car.class, 338L);
-dataProviderNativeSQL.readById(Car.class, 338L);
-dataProviderCriteria.readById(Car.class, 338L);
+        dataProviderHQL.readById(Car.class, 338L);
+        dataProviderNativeSQL.readById(Car.class, 338L);
+        dataProviderCriteria.readById(Car.class, 338L);
     }
 
     /**
@@ -34,7 +34,7 @@ dataProviderCriteria.readById(Car.class, 338L);
     @Test
     public void TimeReadAllPositive() {
         dataProviderCriteria.readAll();
-        dataProviderNativeSQL.readAll();
         dataProviderHQL.readAll();
+        dataProviderNativeSQL.readAll();
     }
 }

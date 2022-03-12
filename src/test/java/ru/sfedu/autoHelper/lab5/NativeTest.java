@@ -4,27 +4,21 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderHQL;
-import ru.sfedu.autoHelper.lab5.dataProvider.IHibernateDataProvider;
 import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderNativeSQL;
+import ru.sfedu.autoHelper.lab5.dataProvider.IHibernateDataProvider;
 import ru.sfedu.autoHelper.lab5.entity.Car;
-import ru.sfedu.autoHelper.lab5.entity.CarProperties;
-import ru.sfedu.autoHelper.lab5.entity.SparePart;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.fail;
 
 public class NativeTest {
     private static final Logger logger = LogManager.getLogger(NativeTest.class);
-    IHibernateDataProvider dataProviderNativeSQL = new DataProviderNativeSQL();
+    DataProviderNativeSQL dataProviderNativeSQL = new DataProviderNativeSQL();
     IHibernateDataProvider dataProviderHQL = new DataProviderHQL();
     Car car;
-    Car newCar;
-    boolean success;
 
     /**
      * чтение объекта по id

@@ -16,11 +16,9 @@ import static org.junit.Assert.fail;
 
 public class CriteriaTest {
     private static final Logger logger = LogManager.getLogger(CriteriaTest.class);
-    IHibernateDataProvider dataProviderCriteria = new DataProviderCriteria();
+    DataProviderCriteria dataProviderCriteria = new DataProviderCriteria();
     IHibernateDataProvider dataProviderHQL = new DataProviderHQL();
     Car car;
-    Car newCar;
-    boolean success;
 
     /**
      * чтение объекта по id

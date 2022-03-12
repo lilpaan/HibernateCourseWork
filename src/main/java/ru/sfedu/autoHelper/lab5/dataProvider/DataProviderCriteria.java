@@ -14,17 +14,11 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 import java.util.Optional;
 
-public class DataProviderCriteria implements IHibernateDataProvider {
+public class DataProviderCriteria {
     private static final Logger logger = LogManager.getLogger(DataProviderCriteria.class);
     CriteriaBuilder criteriaBuilder;
     CriteriaQuery<Car> carCriteriaQuery;
 
-    @Override
-    public <T> Optional<T> create(T object) {
-        return Optional.empty();
-    }
-
-    @Override
     @SuppressWarnings(ConstantsValues.UNCHECKED)
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
@@ -45,7 +39,6 @@ public class DataProviderCriteria implements IHibernateDataProvider {
         }
     }
 
-    @Override
     @SuppressWarnings(ConstantsValues.UNCHECKED)
     public Optional<List<Car>> readAll() {
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
@@ -62,16 +55,6 @@ public class DataProviderCriteria implements IHibernateDataProvider {
             logger.error(e);
             return Optional.empty();
         }
-    }
-
-    @Override
-    public <T> boolean update(T object) {
-        return false;
-    }
-
-    @Override
-    public <T> boolean delete(T object) {
-        return false;
     }
 
 }

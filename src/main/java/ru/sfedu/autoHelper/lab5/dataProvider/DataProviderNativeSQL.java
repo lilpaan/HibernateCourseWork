@@ -11,15 +11,9 @@ import ru.sfedu.autoHelper.util.HibernateUtil;
 import java.util.List;
 import java.util.Optional;
 
-public class DataProviderNativeSQL implements IHibernateDataProvider{
+public class DataProviderNativeSQL {
     private static final Logger logger = LogManager.getLogger(DataProviderNativeSQL.class);
 
-    @Override
-    public <T> Optional<T> create(T object) {
-        return Optional.empty();
-    }
-
-    @Override
     @SuppressWarnings(ConstantsValues.UNCHECKED)
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
@@ -34,7 +28,6 @@ public class DataProviderNativeSQL implements IHibernateDataProvider{
         }
     }
 
-    @Override
     public Optional<List<Car>> readAll() {
         List<Car> carList;
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
@@ -50,13 +43,4 @@ public class DataProviderNativeSQL implements IHibernateDataProvider{
         }
     }
 
-    @Override
-    public <T> boolean update(T object) {
-        return false;
-    }
-
-    @Override
-    public <T> boolean delete(T object) {
-        return false;
-    }
 }
