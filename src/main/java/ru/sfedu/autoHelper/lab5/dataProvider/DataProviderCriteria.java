@@ -17,7 +17,7 @@ import java.util.Optional;
 public class DataProviderCriteria implements IHibernateDataProvider {
     private static final Logger logger = LogManager.getLogger(DataProviderCriteria.class);
     CriteriaBuilder criteriaBuilder;
-    /*CriteriaQuery<Car> carCriteriaQuery;*/
+    CriteriaQuery<Car> carCriteriaQuery;
 
     @Override
     public <T> Optional<T> create(T object) {
@@ -29,34 +29,32 @@ public class DataProviderCriteria implements IHibernateDataProvider {
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
             criteriaBuilder = session.getCriteriaBuilder();
-            CriteriaQuery<Car> carCriteriaQuery;
             carCriteriaQuery = criteriaBuilder.createQuery(Car.class);
             Root<Car> carRoot = carCriteriaQuery.from(Car.class);
-            carCriteriaQuery.select(carRoot).where(criteriaBuilder.equal(carRoot.get("id"), id));
-            Query query = session.createQuery(carCriteriaQuery);
-            List<Car> results = query.getResultList();
-                return (Optional<T>) Optional.of(results.get(0));
+            Query query = session.createQuery(carCriteriaQuery.select(carRoot).where(criteriaBuilder.equal(carRoot
+                    .get(ConstantsValues.ID), id)));
+            return (Optional<T>) Optional.of(query.getSingleResult());
         }
-       catch ( Exception e) {
-        logger.error(e);
-        return Optional.empty();
+       catch (Exception e) {
+            logger.error(e);
+            return Optional.empty();
         }
     }
-/*        try (Session session = getSession(Constants.LAB5_HBN_CFG)){
-            CriteriaBuilder cb = session.getCriteriaBuilder();
-            CriteriaQuery<User> cr = cb.createQuery(User.class);
-            Root<User> root = cr.from(User.class);
-            cr.select(root).where(cb.gt(root.get("id"), id));
-            Query query = session.createQuery(cr);
-            List<User> results = query.getResultList();
-            if (results.size() > 0){
-                return Optional.of(results.get(0));
-            }
-            return Optional.empty();*/
 
     @Override
+    @SuppressWarnings(ConstantsValues.UNCHECKED)
     public Optional<List<Car>> readAll() {
-        return Optional.empty();
+        try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            criteriaBuilder = session.getCriteriaBuilder();
+            carCriteriaQuery = criteriaBuilder.createQuery(Car.class);
+            Root<Car> carRoot = carCriteriaQuery.from(Car.class);
+            Query query = session.createQuery(carCriteriaQuery.select(carRoot));
+            return Optional.of(query.getResultList());
+        }
+        catch (Exception e) {
+            logger.error(e);
+            return Optional.empty();
+        }
     }
 
     @Override
@@ -68,4 +66,5 @@ public class DataProviderCriteria implements IHibernateDataProvider {
     public <T> boolean delete(T object) {
         return false;
     }
+
 }
