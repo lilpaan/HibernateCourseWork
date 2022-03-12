@@ -58,6 +58,10 @@ public class NativeTest {
         assertNotEquals( Optional.empty(), optionalCarList);
     }
 
+    /**
+     * Инициализация объекта автомобиля
+     * @return собранный экземпляр
+     */
     public Optional<Car> initCar() {
         try {
 
