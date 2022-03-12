@@ -6,13 +6,9 @@ import org.junit.Test;
 import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderHQL;
 import ru.sfedu.autoHelper.lab5.dataProvider.IHibernateDataProvider;
 import ru.sfedu.autoHelper.lab5.entity.Car;
-import ru.sfedu.autoHelper.lab5.entity.CarProperties;
-import ru.sfedu.autoHelper.lab5.entity.SparePart;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 import static org.junit.Assert.*;
 

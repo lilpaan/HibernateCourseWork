@@ -9,11 +9,6 @@ import ru.sfedu.autoHelper.lab5.dataProvider.DataProviderNativeSQL;
 import ru.sfedu.autoHelper.lab5.dataProvider.IHibernateDataProvider;
 import ru.sfedu.autoHelper.lab5.entity.Car;
 
-import java.util.Optional;
-
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.fail;
-
 public class TimeTest {
     private static final Logger logger = LogManager.getLogger(TimeTest.class);
     IHibernateDataProvider dataProviderCriteria = new DataProviderCriteria();
@@ -27,11 +22,9 @@ public class TimeTest {
      */
     @Test
     public void readByIdPositive() {
+dataProviderHQL.readById(Car.class, 338L);
 dataProviderNativeSQL.readById(Car.class, 338L);
-
-dataProviderNativeSQL.readById(Car.class, 338L);
-
-dataProviderNativeSQL.readById(Car.class, 338L);
+dataProviderCriteria.readById(Car.class, 338L);
     }
 
     /**
@@ -39,11 +32,9 @@ dataProviderNativeSQL.readById(Car.class, 338L);
      * тип: позитивный
      */
     @Test
-    public void readAllPositive() {
+    public void TimeReadAllPositive() {
+        dataProviderCriteria.readAll();
         dataProviderNativeSQL.readAll();
-
-        dataProviderNativeSQL.readAll();
-
-        dataProviderNativeSQL.readAll();
+        dataProviderHQL.readAll();
     }
 }

@@ -28,14 +28,18 @@ public class DataProviderCriteria implements IHibernateDataProvider {
     @SuppressWarnings(ConstantsValues.UNCHECKED)
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             criteriaBuilder = session.getCriteriaBuilder();
             carCriteriaQuery = criteriaBuilder.createQuery(Car.class);
             Root<Car> carRoot = carCriteriaQuery.from(Car.class);
             Query query = session.createQuery(carCriteriaQuery.select(carRoot).where(criteriaBuilder.equal(carRoot
                     .get(ConstantsValues.ID), id)));
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.CRITERIA + ConstantsValues.READ_BY_ID + ConstantsValues.EXECUTE_TIME
+                    + (end-start));
             return (Optional<T>) Optional.of(query.getSingleResult());
         }
-       catch (Exception e) {
+        catch (Exception e) {
             logger.error(e);
             return Optional.empty();
         }
@@ -45,10 +49,13 @@ public class DataProviderCriteria implements IHibernateDataProvider {
     @SuppressWarnings(ConstantsValues.UNCHECKED)
     public Optional<List<Car>> readAll() {
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             criteriaBuilder = session.getCriteriaBuilder();
             carCriteriaQuery = criteriaBuilder.createQuery(Car.class);
             Root<Car> carRoot = carCriteriaQuery.from(Car.class);
             Query query = session.createQuery(carCriteriaQuery.select(carRoot));
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.CRITERIA + ConstantsValues.READ_ALL + ConstantsValues.EXECUTE_TIME + (end-start));
             return Optional.of(query.getResultList());
         }
         catch (Exception e) {

@@ -305,5 +305,14 @@ public class ConstantsValues {
     public static final String HELLO_WORLD = "Hello world!";
     public static final String UNCHECKED = "unchecked";
     public static final String ID = "id";
+    public static final String EXECUTE_TIME = "EXECUTE TIME: ";
+    public static final String HQL = "HQL ";
+    public static final String READ_BY_ID = "read by id ";
+    public static final String CREATE = "create ";
+    public static final String NATIVE_SQL = "native sql ";
+    public static final String CRITERIA = "criteria ";
+    public static final String READ_ALL = "read all ";
+    public static final String UPDATE = "update ";
+    public static final String DELETE = "delete ";
 
 }

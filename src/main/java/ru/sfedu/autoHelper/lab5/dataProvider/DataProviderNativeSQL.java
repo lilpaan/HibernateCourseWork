@@ -13,9 +13,9 @@ import java.util.Optional;
 
 public class DataProviderNativeSQL implements IHibernateDataProvider{
     private static final Logger logger = LogManager.getLogger(DataProviderNativeSQL.class);
+
     @Override
     public <T> Optional<T> create(T object) {
-        //Object result = HibernateUtil.doQuery(ConstantsValues.LAB5_HBN_CFG, ConstantsValues.GET_DATABASE_SIZE);
         return Optional.empty();
     }
 
@@ -23,7 +23,10 @@ public class DataProviderNativeSQL implements IHibernateDataProvider{
     @SuppressWarnings(ConstantsValues.UNCHECKED)
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             NativeQuery<Car> query = session.createNativeQuery(ConstantsValues.GET_CAR_BY_ID + id, Car.class);
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.NATIVE_SQL + ConstantsValues.READ_BY_ID + ConstantsValues.EXECUTE_TIME + (end-start));
             return (Optional<T>) Optional.ofNullable(query.getSingleResult());
         } catch (Exception e) {
             logger.error(e);
@@ -35,8 +38,11 @@ public class DataProviderNativeSQL implements IHibernateDataProvider{
     public Optional<List<Car>> readAll() {
         List<Car> carList;
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             NativeQuery<Car> query = session.createNativeQuery(ConstantsValues.SQL_SELECT_STAR_FROM_CAR, Car.class);
             carList = query.getResultList();
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.NATIVE_SQL + ConstantsValues.READ_ALL + ConstantsValues.EXECUTE_TIME + (end-start));
             return Optional.of(carList);
         } catch (Exception e) {
             logger.error(e);

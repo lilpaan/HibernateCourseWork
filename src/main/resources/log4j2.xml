@@ -13,7 +13,7 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <Root level="info">
+        <Root level="warn">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender"/>
         </Root>

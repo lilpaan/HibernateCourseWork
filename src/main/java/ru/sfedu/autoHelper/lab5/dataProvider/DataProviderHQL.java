@@ -18,6 +18,7 @@ public class DataProviderHQL implements IHibernateDataProvider {
     public <T> Optional<T> create(T object) {
         Optional<T> optionalObject;
         try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.save(object);
@@ -25,35 +26,41 @@ public class DataProviderHQL implements IHibernateDataProvider {
             logger.info(ConstantsValues.FILE_WAS_INSERT);
             logger.debug(ConstantsValues.TRANSACTION_COMPLETED);
             optionalObject = Optional.ofNullable(object);
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.HQL + ConstantsValues.CREATE + ConstantsValues.EXECUTE_TIME + (end-start));
+            return optionalObject;
         } catch (HibernateException e) {
             logger.error(e);
-            optionalObject = Optional.empty();
+            return Optional.empty();
         }
-        return optionalObject;
+
     }
 
     @Override
     public <T> Optional<T> readById(Class<T> typeClass, long id) {
         Optional<T> optional;
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             optional = Optional.ofNullable(session.get(typeClass, id));
             session.getTransaction().commit();
             logger.info(ConstantsValues.OBJECT_WAS_READ);
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.HQL + ConstantsValues.READ_BY_ID + ConstantsValues.EXECUTE_TIME + (end-start));
+            return optional;
         } catch (Exception e) {
             logger.error(e);
             return Optional.empty();
         }
-        return optional;
     }
 
     @Override
     public Optional<List<Car>> readAll() {
         Optional<List<Car>> carList;
-        try {
-            Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG);
+        try(Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.beginTransaction();
             carList = Optional.ofNullable(session.createQuery
@@ -61,48 +68,53 @@ public class DataProviderHQL implements IHibernateDataProvider {
             logger.info(ConstantsValues.LIST_OBJECT_WAS_READ);
             session.getTransaction().commit();
             logger.debug(ConstantsValues.TRANSACTION_COMPLETED);
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.HQL + ConstantsValues.READ_ALL + ConstantsValues.EXECUTE_TIME + (end-start));
+            return carList;
         } catch (Exception e) {
             logger.error(e);
             return Optional.empty();
         }
-        return carList;
     }
 
 
     @Override
     public <T> boolean update(T object) {
-        boolean isUpdated;
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             session.beginTransaction();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.update(object);
             session.getTransaction().commit();
             logger.info(ConstantsValues.OBJECT_WAS_UPDATED);
             logger.debug(ConstantsValues.SESSION_IS_CLOSED);
-            isUpdated = true;
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.HQL + ConstantsValues.UPDATE + ConstantsValues.EXECUTE_TIME + (end-start));
+            return true;
         } catch (Exception e) {
             logger.error(e);
-            isUpdated = false;
+            return false;
         }
-        return isUpdated;
     }
 
     @Override
     public <T> boolean delete(T object) {
         boolean isDeleted;
         try (Session session = HibernateUtil.openSession(ConstantsValues.LAB5_HBN_CFG)) {
+            long start = System.currentTimeMillis();
             logger.info(ConstantsValues.SESSION_IS_OPENED);
             session.beginTransaction();
             session.delete(object);
             logger.info(ConstantsValues.OBJECT_WAS_DELETED);
             session.getTransaction().commit();
             logger.debug(ConstantsValues.TRANSACTION_COMPLETED);
-            isDeleted = true;
+            long end = System.currentTimeMillis();
+            logger.warn(ConstantsValues.HQL + ConstantsValues.DELETE + ConstantsValues.EXECUTE_TIME + (end-start));
+            return true;
         } catch (Exception e) {
             logger.error(e);
-            isDeleted = false;
+            return false;
         }
-        return isDeleted;
     }
 
 }
